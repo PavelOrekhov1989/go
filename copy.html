@@ -1,0 +1,256 @@
+<section>
+    <div id="bron">
+        <h2>Забронировать зал просто</h2>
+
+        <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+            <div>
+                <h3>Выбери зал</h3>
+                <div>
+                    <label>
+                        <input type="radio" name="halls" value="80' vibes" required>80' vibes
+                    </label>
+                    <label>
+                        <input type="radio" name="halls" value="Star wars">Star wars
+                    </label>
+                    <label>
+                        <input type="radio" name="halls" value="Wild west">Wild west
+                    </label>
+                    <label>
+                        <input type="radio" name="halls" value="Neon style">Neon style
+                    </label>
+                </div>
+            </div>
+
+
+            <div>
+                <h3>Собери свой набор развлечений</h3>
+
+                <div>
+                    <h4>Приставка:</h4>
+                    <legend></legend>
+                    <label>
+                        <input type="radio" name="console" value="PlayStation" required>PlayStation
+                    </label>
+                    <label>
+                        <input type="radio" name="console" value="segamegadrive">Sega Mega Drive
+                    </label>
+                    <label>
+                        <input type="radio" name="console" value="xbox">X-box One S
+                    </label>
+                    <label>
+                        <input type="radio" name="console" value="dendy">Dendy
+                    </label>
+                </div>
+
+                <div>
+                    <h4>Настольные игры:</h4>
+                    <label>
+                        <input type="checkbox" name="game" value="jenga">Jenga
+                    </label>
+                    <label>
+                        <input type="checkbox" name="game" value="monopoly">Monopoly
+                    </label>
+                    <label>
+                        <input type="checkbox" name="game" value="manchkin">Манчкин
+                    </label>
+                    <label>
+                        <input type="checkbox" name="game" value="alias">Alias
+                    </label>
+                </div>
+
+                <div>
+                    <h4>Дополнительно</h4>
+                    <label>
+                        <input type="checkbox" name="dop" value="karaoke">Караоке
+                    </label>
+                    <label>
+                        <input type="checkbox" name="dop" value="vr">VR
+                    </label>
+                </div>
+            </div>
+
+
+
+            <div>
+                <h2>Выберите дату и время</h2>
+                <label>Дата
+                    <input type="date" required name="date"></label>
+                <label>Время
+                    <input type="time" required name="time"></label>
+
+                <br>
+
+                <label>Количество человек
+                    <input type="number" name="sum" required></label>
+
+                <br>
+
+                <label>Имя
+                    <input type="text" name="name" required></label>
+
+                <br>
+
+                <label>Фамилия
+                    <input type="text" name="surname" required></label>
+
+                <br>
+
+                <label>Номер телефона
+                    <input type="tel" name="tel" required></label>
+
+                <br>
+
+                <label>E-mail
+                    <input type="email">
+                </label>
+            </div>
+
+
+            <br>
+
+            <div>
+                <button type="submit">Забронировать</button>
+            </div>
+
+        </form>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<section>
+    <div id="bron">
+        <h2>Забронировать зал просто</h2>
+
+        <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+
+            <fieldset>
+                <label>
+                    <input type="radio" name="halls" value="80' vibes" required>80' vibes
+                </label>
+                <label>
+                    <input type="radio" name="halls" value="Star wars">Star wars
+                </label>
+                <label>
+                    <input type="radio" name="halls" value="Wild west">Wild west
+                </label>
+                <label>
+                    <input type="radio" name="halls" value="Neon style">Neon style
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Собери свой набор развлечений</legend>
+                <fieldset>
+                    <legend>Приставка:</legend>
+                    <label>
+                        <input type="radio" name="console" value="PlayStation" required>PlayStation
+                    </label>
+                    <label>
+                        <input type="radio" name="console" value="segamegadrive">Sega Mega Drive
+                    </label>
+                    <label>
+                        <input type="radio" name="console" value="xbox">X-box One S
+                    </label>
+                    <label>
+                        <input type="radio" name="console" value="dendy">Dendy
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Настольные игры:</legend>
+                    <label>
+                        <input type="checkbox" name="game" value="jenga">Jenga
+                    </label>
+                    <label>
+                        <input type="checkbox" name="game" value="monopoly">Monopoly
+                    </label>
+                    <label>
+                        <input type="checkbox" name="game" value="manchkin">Манчкин
+                    </label>
+                    <label>
+                        <input type="checkbox" name="game" value="alias">Alias
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Дополнительно</legend>
+                    <label>
+                        <input type="checkbox" name="dop" value="karaoke">Караоке
+                    </label>
+                    <label>
+                        <input type="checkbox" name="dop" value="vr">VR
+                    </label>
+                </fieldset>
+            </fieldset>
+
+            <fieldset>
+                <legend>Выберите дату и время</legend>
+
+                <label>Дата
+                    <input type="date" required name="date"></label>
+                <label>Время
+                    <input type="time" required name="time"></label>
+
+                <br>
+
+                <label>Количество человек
+                    <input type="number" name="sum" required></label>
+
+                <br>
+
+                <label>Имя
+                    <input type="text" name="name" required></label>
+
+                <br>
+
+                <label>Фамилия
+                    <input type="text" name="surname" required></label>
+
+                <br>
+
+                <label>Номер телефона
+                    <input type="tel" name="tel"></label>
+
+                <br>
+
+                <label>E-mail
+                    <input type="email">
+                </label>
+
+            </fieldset>
+
+            <br>
+
+            <button type="submit">Забронировать</button>
+
+            <section>
+                <h2>Отзывы посетителей</h2>
+
+                <div>
+                    <img src="" alt="Фото Макс Самойлов">
+                    <p>Макс Самойлов</p>
+                    <p>Отмечали Здесь день рождения с компанией друзей, все было очень круто! VR очки это просто бомба,
+                        никогда еще не был в таком полном игровом погружении. Сервис на высоте!</p>
+                </div>
+
+                <div>
+                    <img src="" alt="Фото Оксана Григорьева">
+                    <p>Оксана Григорьева</p>
+                    <p>Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив! У нас в
+                        городе больше нет подобных заведений.</p>
+                </div>
+
+                <div>
+                    <img src="" alt="фото никита ященко">
+                    <p>Никита Ященко</p>
+                    <p>Немного подвисала игра в VR очках, а так все нор. Крутое оформление комнаты в стиле звездных
+                        войн, попал в атмосферу космоса.</p>
+                </div>
+
+            </section>
