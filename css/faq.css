@@ -13,20 +13,15 @@
     color: white;
 }
 
-.questions__white:after {
+.fag-li:after {
     content: "";
     display: inline-block;
-    float: inline-end;
+    float: right;
     width: 46px;
     height: 46px;
     background-image: url(/icon/img/open-purple.svg);
 }
 
-.questions__purpul:after {
-    content: "";
-    display: inline-block;
-    float: inline-end;
-    width: 46px;
-    height: 46px;
+.fag-li:nth-child(2n):after {
     background-image: url(/icon/img/open.svg);
 }
