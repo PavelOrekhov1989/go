@@ -16,12 +16,14 @@
 .fag-li:after {
     content: "";
     display: inline-block;
+
     float: right;
     width: 46px;
     height: 46px;
     background-image: url(/icon/img/open-purple.svg);
 }
 
-.fag-li:nth-child(2n):after {
+.fag-li:nth-child(even):after {
     background-image: url(/icon/img/open.svg);
+
 }
