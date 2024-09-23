@@ -85,34 +85,34 @@
                 <h2>Наши залы</h2>
 
 
-                <ol class="container-hall">
+                <div class="container-hall">
                     <div class="hall-li con_vibes">
                         <span class="span">
-                            <li class="vibes"><a class="text_li" href="/vibes.html" target="_blank">80' vibes</a></li>
+                            <a class="text_li" href="/vibes.html" target="_blank">80' vibes</a>
                         </span>
                     </div>
 
                     <div class="hall-li con_starwars">
                         <span class="span">
-                            <li class="starwars"><a class="text_li" href="/starwars.html" target="_blank">Star wars</a>
-                            </li>
+                            <a class="text_li" href="/starwars.html" target="_blank">Star wars</a>
+
                         </span>
                     </div>
 
                     <div class="hall-li con_wildwest">
                         <span class="span">
-                            <li class="wildwest"><a class="text_li" href="/wildwest.html" target="_blank">Wild west</a>
-                            </li>
+                            <a class="text_li" href="/wildwest.html" target="_blank">Wild west</a>
+
                         </span>
                     </div>
 
                     <div class="hall-li con_neon">
                         <span class="span">
-                            <li class="neon "><a class="text_li" href="/neon.html" target="_blank">Neon style</a></li>
+                            <a class="text_li" href="/neon.html" target="_blank">Neon style</a>
                         </span>
                     </div>
 
-                </ol>
+                </div>
 
             </section>
 
@@ -124,21 +124,18 @@
 
                     <fieldset>
                         <div>
-
-                            <div>
-                                <label>
-                                    <input type="radio" name="halls" value="80' vibes" required>80' vibes
-                                </label>
-                                <label>
-                                    <input type="radio" name="halls" value="Star wars">star wars
-                                </label>
-                                <label>
-                                    <input type="radio" name="halls" value="Wild west">wild west
-                                </label>
-                                <label>
-                                    <input type="radio" name="halls" value="Neon style">neon style
-                                </label>
-                            </div>
+                            <label>
+                                <input type="radio" name="halls" value="80' vibes" required>80' vibes
+                            </label>
+                            <label>
+                                <input type="radio" name="halls" value="Star wars">star wars
+                            </label>
+                            <label>
+                                <input type="radio" name="halls" value="Wild west">wild west
+                            </label>
+                            <label>
+                                <input type="radio" name="halls" value="Neon style">neon style
+                            </label>
                         </div>
                     </fieldset>
 
@@ -151,101 +148,100 @@
                             <legend>
                                 <h4>Приставки</h4>
                             </legend>
-                            <div>
-                                <label>
-                                    <input type="radio" name="console" value="PlayStation" required>PlayStation
-                                </label>
-                                <label>
-                                    <input type="radio" name="console" value="segamegadrive">Sega Mega Drive
-                                </label>
-                                <label>
-                                    <input type="radio" name="console" value="xbox">X-box One S
-                                </label>
-                                <label>
-                                    <input type="radio" name="console" value="dendy">Dendy
-                                </label>
-                            </div>
+                            <label>
+                                <input type="radio" name="console" value="PlayStation" required>PlayStation
+                            </label>
+                            <label>
+                                <input type="radio" name="console" value="segamegadrive">Sega Mega Drive
+                            </label>
+                            <label>
+                                <input type="radio" name="console" value="xbox">X-box One S
+                            </label>
+                            <label>
+                                <input type="radio" name="console" value="dendy">Dendy
+                            </label>
                         </fieldset>
-                        <div>
 
-                            <fieldset>
-                                <legend>
-                                    <h4>Настольные игры</h4>
-                                </legend>
-                                <div>
 
-                                    <label>
-                                        <input type="checkbox" name="game" value="jenga">Jenga
-                                    </label>
-                                    <label>
-                                        <input type="checkbox" name="game" value="monopoly">Monopoly
-                                    </label>
-                                    <label>
-                                        <input type="checkbox" name="game" value="manchkin">Манчкин
-                                    </label>
-                                    <label>
-                                        <input type="checkbox" name="game" value="alias">Alias
-                                    </label>
-                                </div>
-                            </fieldset>
+                        <fieldset>
+                            <legend>
+                                <h4>Настольные игры</h4>
+                            </legend>
 
-                            <fieldset>
-                                <legend>
-                                    <h4>Дополнительно</h4>
-                                </legend>
-                                <div>
-                                    <label>
-                                        <input type="checkbox" name="dop" value="karaoke">Караоке
-                                    </label>
-                                    <label>
-                                        <input type="checkbox" name="dop" value="vr">VR
-                                    </label>
-                                </div>
-                        </div>
+                            <label>
+                                <input type="checkbox" name="game" value="jenga">Jenga
+                            </label>
+                            <label>
+                                <input type="checkbox" name="game" value="monopoly">Monopoly
+                            </label>
+                            <label>
+                                <input type="checkbox" name="game" value="manchkin">Манчкин
+                            </label>
+                            <label>
+                                <input type="checkbox" name="game" value="alias">Alias
+                            </label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>
+                                <h4>Дополнительно</h4>
+                            </legend>
+
+                            <label>
+                                <input type="checkbox" name="dop" value="karaoke">Караоке
+                            </label>
+                            <label>
+                                <input type="checkbox" name="dop" value="vr">VR
+                            </label>
+                        </fieldset>
+
                     </fieldset>
+
+
+
 
 
                     <fieldset>
                         <legend>
-                            <h2>Выберите дату и время</h2>
+                            <h4>Выберите дату и время</h4>
                         </legend>
-                        <div>
-
-                            <label>Дата
-                                <input type="date" required name="date"></label>
-                            <label>Время
-                                <input type="time" required name="time"></label>
 
 
-
-                            <label>Количество человек
-                                <input type="number" name="sum" required></label>
+                        <label>Дата
+                            <input type="date" required name="date"></label>
+                        <label>Время
+                            <input type="time" required name="time"></label>
 
 
 
-                            <label>Имя
-                                <input type="text" name="name" required></label>
+                        <label>Количество человек
+                            <input type="number" name="sum" required></label>
 
 
 
-                            <label>Фамилия
-                                <input type="text" name="surname" required></label>
+                        <label>Имя
+                            <input type="text" name="name" required></label>
 
 
 
-                            <label>Номер телефона
-                                <input type="tel" name="tel" required></label>
+                        <label>Фамилия
+                            <input type="text" name="surname" required></label>
 
 
 
-                            <label>E-mail
-                                <input type="email">
-                            </label>
+                        <label>Номер телефона
+                            <input type="tel" name="tel" required></label>
 
-                            <label><input type="checkbox">Я старше 18 лет
-                            </label>
 
-                        </div>
+
+                        <label>E-mail
+                            <input type="email">
+                        </label>
+
+                        <label><input type="checkbox">Я старше 18 лет
+                        </label>
+
+
                     </fieldset>
 
 
@@ -285,7 +281,8 @@
 
                     <table class="author">
                         <tr>
-                            <td class="author-padin"><img src="/img/Ellipse 2.png" width="80" height="80" alt=""></td>
+                            <td class="author-padin"><img src="/img/Ellipse2.png" width="80" height="80"
+                                    alt="Аркадий Абакшин"></td>
                             <td>Аркадий Абакшин,<br> создатель игровой территории<br> GAME OVER.</td>
                         </tr>
                     </table>
@@ -372,18 +369,19 @@
         <footer id="con">
             <h2>Контакты</h2>
 
-            <div class="icon-map">
-                <span>г. Москва ул. Аквамарина, 16</span>
-            </div>
+            <ul class="icon">
+                <li class="social_item">
 
+                </li>
+                <li class="social_item icon-map">
+                    <span>г. Москва <br> ул. Аквамарина, 16</span>
+                </li>
+                <li class="social_item icon-tell">
+                    <span><a href="tel:8(950)930-28-93">8(950)930-28-93</a></span>
+                </li>
+                <li class="social_item icon-mail"><a href="mailto:GameOver@gmail.com">GameOver@gmail.com</a></li>
+            </ul>
 
-            <div class="icon-tell">
-                <span><a href="tel:8(950)930-28-93">8(950)930-28-93</a></span>
-            </div>
-
-            <div class="icon-mail">
-                <a href="mailto:GameOver@gmail.com">GameOver@gmail.com</a>
-            </div>
 
 
             <ul class="social">
