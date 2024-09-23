@@ -9,151 +9,26 @@ body {
     color: #FFFFFF;
 }
 
+body h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.25;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+
+}
+
 blockquote {
     text-transform: uppercase;
+}
+
+h4 {
+    margin: 0;
 }
 
 .wrapper {
     width: 1440px;
     padding: 30px;
     margin: 0 auto;
-}
-
-
-
-.banner_container {
-    width: 1180px;
-    height: 823px;
-    background-image: url(/img/banner.png);
-    background-repeat: no-repeat;
-    background-position: right 61px;
-    background-size: contain;
-    display: block;
-
-
-}
-
-
-.banner-paragraph {
-    font-weight: 900;
-    font-size: 150px;
-    margin-top: 0px;
-    margin-bottom: 0;
-    line-height: 1;
-    letter-spacing: -0.1em;
-    text-align: center;
-    color: #fff;
-    text-align: left;
-}
-
-.banner-text {
-    margin-top: 0;
-    margin-left: 100px;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 1.78571;
-    color: #fff;
-}
-
-.container-hall {
-    list-style: none;
-    font-weight: 700;
-    font-size: 70px;
-    line-height: 1.14286;
-    text-transform: uppercase;
-    text-align: center;
-    color: #fff;
-}
-
-.hall-li {
-    width: 1180px;
-    height: 710px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.con_vibes {
-    background-image: url(/img/80vibes.jpg);
-    background-repeat: no-repeat;
-    margin-bottom: 60px
-}
-
-.con_starwars {
-    background-image: url(/img/star\ wars.jpg);
-    background-repeat: no-repeat;
-    margin-bottom: 60px
-}
-
-.con_wildwest {
-    background-image: url(/img/wild\ west.jpg);
-    background-repeat: no-repeat;
-    margin-bottom: 60px
-}
-
-.con_neon {
-    background-image: url(/img/neon\ style.jpg);
-    background-repeat: no-repeat;
-    margin-bottom: 60px
-}
-
-.text_li {
-    text-decoration: none;
-
-    font-weight: 700;
-    font-size: 70px;
-    line-height: 1.14286;
-    text-transform: uppercase;
-    word-wrap: break-word;
-    text-align: center;
-    color: #fff;
-
-}
-
-.span {
-    overflow-wrap: break-word;
-    width: 250px;
-}
-
-.block-text {
-    font-weight: 400;
-    font-size: 44px;
-    line-height: 1.13636;
-    text-transform: uppercase;
-    color: #fff;
-}
-
-.block-text:before {
-    content: "“ ";
-    font-weight: 900;
-
-    font-size: 44px;
-    line-height: 1.13636;
-    text-transform: uppercase;
-    color: #6c0287;
-}
-
-.block-text:after {
-    content: " ” ";
-    font-weight: 900;
-
-    font-size: 44px;
-    line-height: 1.13636;
-    text-transform: uppercase;
-    color: #6c0287;
-    transform: rotate(180deg);
-}
-
-.author {
-    display: flex;
-    justify-content: right;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.4;
-    color: #fff;
-}
-
-.author-padin {
-    padding-right: 30px;
 }

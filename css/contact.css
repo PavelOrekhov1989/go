@@ -1,0 +1,42 @@
+.icon-map:before {
+    content: "";
+    display: inline-block;
+    width: 35px;
+    height: 32px;
+    background-image: url(/icon/imgfoot/location.svg);
+
+}
+
+.icon-tell:before {
+    content: "";
+    display: inline-block;
+    width: 35px;
+    height: 32px;
+    background-image: url(/icon/imgfoot/phone-call.svg);
+}
+
+.icon-mail:before {
+    content: "";
+    display: inline-block;
+
+    width: 35px;
+    height: 32px;
+    background-image: url(/icon/imgfoot/envelope.svg)
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+
+.social_item {
+    list-style: none;
+}
+
+.social-link {
+    display: block;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+}
