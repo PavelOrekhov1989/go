@@ -17,12 +17,17 @@ body {
     font-size: 16px;
     background-color: #1B1A1B;
     color: #FFFFFF;
+
 }
 
 .container {
-    max-width: 1240px;
-    padding: 0 30px;
-    margin: 0 auto;
+    max-width: 1440px;
+
+
+}
+
+section {
+    padding: 0 130px;
 }
 
 img {
@@ -69,10 +74,4 @@ blockquote {
 
 h4 {
     margin: 0;
-}
-
-.wrapper {
-    width: 1440px;
-    padding: 30px;
-    margin: 0 auto;
 }
