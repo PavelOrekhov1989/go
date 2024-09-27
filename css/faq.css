@@ -1,4 +1,4 @@
-.item__questions {
+.fag__item {
     background-color: #fff;
     color: #1C1A1A;
     font-weight: 700;
@@ -8,12 +8,12 @@
     list-style: none
 }
 
-.item__questions:nth-child(2n) {
+.fag__item:nth-child(2n) {
     background-color: #440F51;
     color: white;
 }
 
-.fag-li:after {
+.fag__item_bg-img:after {
     content: "";
     display: inline-block;
 
@@ -23,7 +23,7 @@
     background-image: url(/icon/img/open-purple.svg);
 }
 
-.fag-li:nth-child(even):after {
+.fag__item_bg-img:nth-child(even):after {
     background-image: url(/icon/img/open.svg);
 
 }

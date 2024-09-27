@@ -1,4 +1,4 @@
-.banner_container {
+.container__baner {
     width: 1180px;
     height: 823px;
     background-image: url(/img/banner.png);
@@ -9,7 +9,7 @@
 }
 
 
-.banner-paragraph {
+.container__baner__paragraph {
     font-weight: 900;
     font-size: 150px;
     margin-top: 0px;
@@ -21,7 +21,7 @@
     text-align: left;
 }
 
-.banner-text {
+.container__baner__text {
     margin-top: 0;
     margin-left: 100px;
     font-weight: 400;
@@ -32,7 +32,7 @@
 
 
 
-.container-hall {
+.container__hall {
 
     list-style: none;
     font-weight: 700;
@@ -43,7 +43,7 @@
     color: #fff;
 }
 
-.hall-li {
+.container__hall__item {
     width: 1180px;
     height: 710px;
     display: flex;
@@ -52,31 +52,31 @@
 
 }
 
-.con_vibes {
+.container__hall-vibes {
     background-image: url(/img/80vibes.jpg);
     background-repeat: no-repeat;
     margin-bottom: 60px
 }
 
-.con_starwars {
+.container__hall-starwars {
     background-image: url(/img/star\ wars.jpg);
     background-repeat: no-repeat;
     margin-bottom: 60px
 }
 
-.con_wildwest {
+.container__hall-wildwest {
     background-image: url(/img/wild\ west.jpg);
     background-repeat: no-repeat;
     margin-bottom: 60px
 }
 
-.con_neon {
+.container__hall-neon {
     background-image: url(/img/neon\ style.jpg);
     background-repeat: no-repeat;
     margin-bottom: 60px
 }
 
-.text_li {
+.container__hall__text {
     text-decoration: none;
 
     font-weight: 700;
@@ -92,46 +92,4 @@
 .span {
     overflow-wrap: break-word;
     width: 250px;
-}
-
-.block-text {
-    font-weight: 400;
-    font-size: 44px;
-    line-height: 1.13636;
-    text-transform: uppercase;
-    color: #fff;
-}
-
-.block-text:before {
-    content: "“ ";
-    font-weight: 900;
-
-    font-size: 44px;
-    line-height: 1.13636;
-    text-transform: uppercase;
-    color: #6c0287;
-}
-
-.block-text:after {
-    content: " ” ";
-    font-weight: 900;
-
-    font-size: 44px;
-    line-height: 1.13636;
-    text-transform: uppercase;
-    color: #6c0287;
-    transform: rotate(180deg);
-}
-
-.author {
-    display: flex;
-    justify-content: right;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.4;
-    color: #fff;
-}
-
-.author-padin {
-    padding-right: 30px;
 }

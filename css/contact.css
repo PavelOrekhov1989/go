@@ -1,4 +1,4 @@
-.icon-map:before {
+.adress__item-map:before {
     content: "";
     display: inline-block;
     width: 35px;
@@ -7,7 +7,7 @@
 
 }
 
-.icon-tell:before {
+.adress__item-tell:before {
     content: "";
     display: inline-block;
     width: 35px;
@@ -15,7 +15,7 @@
     background-image: url(/icon/imgfoot/phone-call.svg);
 }
 
-.icon-mail:before {
+.adress__item-mail:before {
     content: "";
     display: inline-block;
     width: 35px;
@@ -23,13 +23,13 @@
     background-image: url(/icon/imgfoot/envelope.svg)
 }
 
-.social {
+.social__list {
     display: flex;
     justify-content: space-between;
     width: 280px;
 }
 
-.social_item {
+.adress__item {
     list-style: none;
 
 }
@@ -39,14 +39,14 @@ ul a {
     color: inherit;
 }
 
-.icon {
+.adress__list {
     font-weight: 700;
     font-size: 24px;
     line-height: 1.16667;
     color: #fff;
 }
 
-.social-link {
+.social__link {
     display: block;
     width: 50px;
     height: 50px;

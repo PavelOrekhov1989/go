@@ -1,77 +1,13 @@
-html {
-    box-sizing: border-box;
-    position: relative;
-}
+@import url(normalize.css);
 
-* {
-    box-sizing: inherit;
-}
+@import url(global.css);
 
-body {
-    width: 1440px;
-    position: relative;
-    overflow-x: hidden;
-    min-width: 320px;
-    min-height: 100vh;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    background-color: #1B1A1B;
-    color: #FFFFFF;
+@import url(style.css);
 
-}
+@import url(faq.css);
 
-.container {
-    max-width: 1440px;
+@import url(hall.css);
 
+@import url(contact.css);
 
-}
-
-section {
-    padding: 0 130px;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-button {
-    cursor: pointer;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    margin: 0;
-}
-
-body h2 {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 1.25;
-    text-transform: uppercase;
-    text-align: center;
-    color: #fff;
-
-
-}
-
-blockquote {
-    text-transform: uppercase;
-}
-
-h4 {
-    margin: 0;
-}
+@import url(about.css);
