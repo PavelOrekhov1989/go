@@ -61,7 +61,7 @@ h4 {
 }
 
 h2 {
-    margin-bottom: 60px;
+    margin: 100px 0 40px 0;
 }
 
 body h2 {
@@ -81,4 +81,10 @@ blockquote {
 
 h4 {
     margin: 0;
+}
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
 }

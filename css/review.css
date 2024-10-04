@@ -1,0 +1,31 @@
+.review__container__figure {
+    float: left;
+    padding-left: 100px;
+    margin-right: 20px;
+}
+
+.float-clear {
+    clear: left;
+}
+
+.review__container {
+    position: relative;
+}
+
+.review__container__quote {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+
+    color: #fff;
+
+}
+
+.review__container__quote__text {
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+.review__container__name {
+    padding-left: 200px;
+}
