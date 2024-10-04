@@ -3,7 +3,9 @@ html {
     position: relative;
 }
 
-* {
+*,
+*::before,
+*::after {
     box-sizing: inherit;
 }
 
@@ -22,6 +24,7 @@ body {
 
 .container {
     max-width: 1440px;
+    margin-bottom: 100px;
 
 
 }
@@ -51,10 +54,14 @@ ul {
 }
 
 h1,
-h2,
+
 h3,
 h4 {
     margin: 0;
+}
+
+h2 {
+    margin-bottom: 60px;
 }
 
 body h2 {

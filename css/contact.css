@@ -1,15 +1,24 @@
-.adress__item-map:before {
-    content: "";
+.adress {
+    margin-bottom: 40px;
+}
+
+
+.float-img {
     display: inline-block;
-    width: 35px;
-    height: 32px;
-    background-image: url(/icon/imgfoot/location.svg);
+    margin-right: 23px;
 
 }
+
+.float-text {
+    display: inline-block;
+}
+
 
 .adress__item-tell:before {
     content: "";
     display: inline-block;
+    padding-left: 55px;
+    background-repeat: no-repeat;
     width: 35px;
     height: 32px;
     background-image: url(/icon/imgfoot/phone-call.svg);
@@ -18,6 +27,8 @@
 .adress__item-mail:before {
     content: "";
     display: inline-block;
+    padding-left: 60px;
+    background-repeat: no-repeat;
     width: 35px;
     height: 32px;
     background-image: url(/icon/imgfoot/envelope.svg)

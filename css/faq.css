@@ -16,8 +16,8 @@
 .fag__item_bg-img:after {
     content: "";
     display: inline-block;
-
     float: right;
+
     width: 46px;
     height: 46px;
     background-image: url(/icon/img/open-purple.svg);

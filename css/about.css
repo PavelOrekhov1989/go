@@ -1,3 +1,10 @@
+.about__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #fff;
+}
+
 .block-text {
     font-weight: 400;
     font-size: 44px;
@@ -5,6 +12,15 @@
     text-transform: uppercase;
     color: #fff;
 }
+
+
+
+.about-img {
+    float: left;
+    margin-right: 80px;
+}
+
+
 
 .block-text:before {
     content: "“ ";
