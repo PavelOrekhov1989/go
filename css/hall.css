@@ -1,15 +1,34 @@
 .container__baner {
+    position: relative;
     width: 1180px;
     height: 823px;
+
+}
+
+.position-banner {
+    width: 1180px;
+    height: 823px;
+
+}
+
+
+
+.container__baner::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
     background-image: url(/img/banner.png);
+    background-position: bottom right 0px;
     background-repeat: no-repeat;
-    background-position: right 61px;
-    background-size: contain;
-    display: block;
+    background-size: 675px 762px;
+    z-index: 20;
 }
 
 
 .container__baner__paragraph {
+    position: absolute;
+    z-index: 2;
     font-weight: 900;
     font-size: 150px;
     margin-top: 0px;
@@ -19,9 +38,12 @@
     text-align: center;
     color: #fff;
     text-align: left;
+
 }
 
 .container__baner__text {
+    position: absolute;
+    top: 150px;
     margin-top: 0;
     padding-left: 100px;
     font-weight: 400;
@@ -33,7 +55,7 @@
 
 
 .container__hall {
-
+    vertical-align: top;
     list-style: none;
     font-weight: 700;
     font-size: 70px;
@@ -46,15 +68,16 @@
 
 
 .container__hall__item {
-    width: 1180px;
-    height: 710px;
-    display: flex;
-    margin-bottom: 60px;
-    justify-content: center;
-    align-items: center;
+    width: 580px;
+    height: 349px;
+    display: inline-block;
+    margin-bottom: 20px;
+    position: relative;
+
+
 }
 
-.container__hall__item:nth-last-child(1) {
+.container__hall__item:nth-last-child(-n+ 2) {
     margin: 0;
 }
 
@@ -97,6 +120,5 @@
 }
 
 .span {
-    overflow-wrap: break-word;
-    width: 250px;
+    padding-top: 135px;
 }
