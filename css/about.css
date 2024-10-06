@@ -15,9 +15,31 @@
 
 
 
-.about-img {
-    float: left;
-    margin-right: 80px;
+.bg__image {
+    display: inline-block;
+    width: 600px;
+    height: 596px;
+    margin-right: 70px;
+    background-image: url(/img/about.jpg);
+    background-repeat: no-repeat;
+}
+
+.wrapper-about__content__text {
+    width: 500px;
+    height: 222px;
+    margin-bottom: 60px;
+}
+
+.about__autor {
+    width: 500px;
+    height: 325px;
+
+
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
 }
 
 

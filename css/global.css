@@ -24,14 +24,14 @@ body {
 
 .container {
     max-width: 1440px;
-    margin-bottom: 100px;
+
+    padding: 0 130px;
 
 
 }
 
 section {
-    padding: 0 130px;
-
+    margin-bottom: 100px;
 }
 
 img {
@@ -54,16 +54,23 @@ ul {
     list-style: none;
 }
 
+p {
+    margin: 0;
+}
+
 h1,
-h2 h3,
+h2,
+h3,
 h4 {
     margin: 0;
 }
 
-
+figure {
+    margin: 0;
+}
 
 body h2 {
-    margin: 100px 0 40px 0;
+    margin-bottom: 40px;
     font-weight: 700;
     font-size: 40px;
     line-height: 1.25;

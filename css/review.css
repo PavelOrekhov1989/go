@@ -13,19 +13,20 @@
 }
 
 .review__container__quote {
+    padding-bottom: 45px;
+    padding-left: 165px;
     font-weight: 400;
     font-size: 20px;
     line-height: 1.4;
-
     color: #fff;
 
+}
+
+.review__container__img {
+    margin-bottom: 11px;
 }
 
 .review__container__quote__text {
     padding-right: 100px;
     padding-top: 50px;
-}
-
-.review__container__name {
-    padding-left: 200px;
 }

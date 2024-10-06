@@ -23,7 +23,7 @@
 
 .container__baner__text {
     margin-top: 0;
-    margin-left: 100px;
+    padding-left: 100px;
     font-weight: 400;
     font-size: 28px;
     line-height: 1.78571;
@@ -43,37 +43,44 @@
     color: #fff;
 }
 
+
+
 .container__hall__item {
     width: 1180px;
     height: 710px;
     display: flex;
+    margin-bottom: 60px;
     justify-content: center;
     align-items: center;
-
 }
+
+.container__hall__item:nth-last-child(1) {
+    margin: 0;
+}
+
 
 .container__hall-vibes {
     background-image: url(/img/80vibes.jpg);
     background-repeat: no-repeat;
-    margin-bottom: 60px
+
 }
 
 .container__hall-starwars {
     background-image: url(/img/star\ wars.jpg);
     background-repeat: no-repeat;
-    margin-bottom: 60px
+
 }
 
 .container__hall-wildwest {
     background-image: url(/img/wild\ west.jpg);
     background-repeat: no-repeat;
-    margin-bottom: 60px
+
 }
 
 .container__hall-neon {
     background-image: url(/img/neon\ style.jpg);
     background-repeat: no-repeat;
-    margin-bottom: 60px
+
 }
 
 .container__hall__text {

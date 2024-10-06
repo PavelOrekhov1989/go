@@ -8,6 +8,11 @@
     list-style: none
 }
 
+.fag__item:last-child {
+    margin-bottom: 0;
+}
+
+
 .fag__item:nth-child(2n) {
     background-color: #440F51;
     color: white;
