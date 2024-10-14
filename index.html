@@ -13,20 +13,18 @@
 <body>
 
 
-    <!-- <header>
+    <header>
 
         <section class="header">
 
-            <div class="container">
+            <div class="container container__header">
 
-                <img class="header__logo" src="/img/logo.svg" alt="логотип">
+                <img class="header__logo" src="/img/img-nav/logo.svg" alt="логотип">
 
-
-                <h1 class="header__menu__title">Меню</h1>
 
 
                 <nav class="navigation">
-                    <ul class=navigation__list>
+                    <ul class="navigation__list">
                         <li class="navigation__item">
                             <a class="navigation__link" href="#hall">Залы</a>
                         </li>
@@ -44,52 +42,20 @@
                         </li>
                     </ul>
                 </nav>
+
+
+
+                <button class="navigation__button">Заказать звонок</button>
+
+
             </div>
 
         </section>
 
-    </header> -->
+    </header>
 
     <main>
 
-        <!--<section class="servis">
-
-            <div class="container">
-
-                <h2 class="servis__title">У нас есть все для классного отдыха с друзьями!</h2>
-
-                <figure class="servis-figure">
-                    <img class="servis-figure__img" src="/img/vr.jpg" alt="vr" height="228">
-                    <figcaption class="servis__figure__figcaption">VR очки</figcaption>
-                </figure>
-
-                <figure class="servis-figure">
-                    <img class="servis-figure__img" src="/img/audio.jpg" alt="звук" height="228">
-                    <figcaption class="servis__figure__figcaption">Аудио-система 5.1 с отличным звуком</figcaption>
-                </figure>
-
-                <figure class="servis-figure">
-                    <img class="servis-figure__img" src="/img/audio.jpg" alt="караоке" height="228">
-                    <figcaption class="servis-figure__figcaption">Караоке (4 микрофона)</figcaption>
-                </figure>
-
-                <figure class="servis-figure">
-                    <img class="servis-figure__img" src="/img/game.jpg" alt="игры" height="228">
-                    <figcaption class="servis-figure__figcaption">Настольные игры</figcaption>
-                </figure>
-
-                <figure class="servis-figure">
-                    <img class="servis-figure__img" src="/img/netflix.jpg" alt="кино" height="228">
-                    <figcaption class="servis-figure__figcaption">Кино сервисы Netflix, IVI, MegoGo, Кинопоиск, Okko
-                    </figcaption>
-                </figure>
-
-                <figure class="servis-figure">
-                    <img class="servis-figure__img" src="/img/sony.jpg" alt="PlayStation" height="228">
-                    <figcaption class="servis-figure__figcaption">PlayStation 5</figcaption>
-                </figure>
-            </div>
-        </section> -->
 
 
 
@@ -105,6 +71,41 @@
 
         </section>
 
+
+
+
+        <section class="servis">
+
+            <div class="container">
+                <h2 class="servis__title">У нас есть все для классного <br> отдыха с друзьями!</h2>
+
+                <div class="servis__wrapper">
+                    <div class="servis__content servis__content_vr">
+
+                    </div>
+
+                    <div class="servis__content servis__content_audio">
+                        <p class="servis__content__text">Аудио-система 5.1 <br> с отличным звуком</p>
+                    </div>
+
+                    <div class="servis__content servis__content_karaoke">
+                        <p class="servis__content__text">Караоке (4 микрофона)</p>
+                    </div>
+
+                    <div class="servis__content servis__content_game">
+                        <p class="servis__content__text">Настольные игры</p>
+                    </div>
+
+                    <div class="servis__content servis__content_cinema">
+                        <p class="servis__content__text">Кино сервисы Netflix, IVI, <br> MegoGo, Кинопоиск, Okko</p>
+                    </div>
+
+                    <div class="servis__content servis__content_playstation">
+                        <p class="servis__content__text">PlayStation 5</p>
+                    </div>
+                </div>
+        </section>
+
         <section class="hall" id="hall">
 
             <div class="container">
@@ -117,8 +118,6 @@
                         <div class="span">
                             <a class="container__hall__text" href="/vibes.html" target="_blank">80' vibes</a>
                         </div>
-
-
                     </div>
 
                     <div class="container__hall__item container__hall-starwars">
@@ -146,31 +145,45 @@
 
         </section>
 
+
+
+
+
+
+
         <section class="reserv" id="bron">
 
-            <div class="container">
+            <div class="container reserv__container">
 
-                <h2 class="reserv__title">Забронировать</h2>
+                <h2 class="reserv__title">Забронировать зал просто</h2>
 
                 <form class="reserv__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+                    <p class="reserv__text">Выбери зал</p>
 
-                    <fieldset class="reserv-hall">
 
-                        <label class="reserv-hall__label">
-                            <input class="reserv-hall__input" type="radio" name="halls" value="80' vibes" required>80'
-                            vibes
-                        </label>
-                        <label class="reserv__label">
-                            <input class="reserv-hall__input" type="radio" name="halls" value="Star wars">star wars
-                        </label>
-                        <label class="reserv-hall__label">
-                            <input class="reserv-hall__input" type="radio" name="halls" value="Wild west">wild west
-                        </label>
-                        <label class="reserv-hall__label">
-                            <input class="reserv-hall__input" type="radio" name="halls" value="Neon style">neon style
-                        </label>
+                    <div class="reserv-hall">
+                        <div class="reserv-hall__radio__button">
+                            <input class=" reserv-hall__input" id="80" type="radio" name="halls" value="80' vibes"
+                                required>
+                            <label class="reserv-hall__label" for="80">80' vibes</label>
+                        </div>
 
-                    </fieldset>
+                        <div class="reserv-hall__radio__button">
+                            <input class="reserv-hall__input" id="Star" type="radio" name="halls" value="Star wars">
+                            <label class="reserv-hall__label" for="Star">star wars</label>
+                        </div>
+
+                        <div class="reserv-hall__radio__button">
+                            <input class="reserv-hall__input" id="Wild" type="radio" name="halls" value="Wild west">
+                            <label class="reserv-hall__label" for="Wild">wild west</label>
+                        </div>
+
+                        <div class="reserv-hall__radio__button">
+                            <input class="reserv-hall__input" id="Neon" type="radio" name="halls" value="Neon style">
+                            <label class="reserv-hall__label" for="Neon">neon style</label>
+                        </div>
+
+                    </div>
 
                     <fieldset class="reserv-entertainment">
                         <legend class="reserv-entertainment__title">
@@ -197,7 +210,6 @@
                                 <input class="reserv-consol__input" type="radio" name="console" value="dendy">Dendy
                             </label>
                         </fieldset>
-
 
                         <fieldset class="reserv-game">
                             <legend class="reserv-game__title">
@@ -234,34 +246,27 @@
 
                     </fieldset>
 
-
                     <fieldset class="reserv-date">
                         <legend class="reserv-date__title">
                             <h4>Выберите дату и время</h4>
                         </legend>
-
 
                         <label class="reserv-date__label">Дата
                             <input class="reserv-date__input" type="date" required name="date"></label>
                         <label class="reserv-date__label">Время
                             <input class="reserv-date__input" type="time" required name="time"></label>
 
-
                         <label class="reserv-date__label">Количество человек
                             <input class="reserv-date__input" type="number" name="sum" required></label>
-
 
                         <label class="reserv-date__label">Имя
                             <input class="reserv-date__input" type="text" name="name" required></label>
 
-
                         <label class="reserv-date__label">Фамилия
                             <input class="reserv-date__input" type="text" name="surname" required></label>
 
-
                         <label class="reserv-date__label">Номер телефона
                             <input class="reserv-date__input" type="tel" name="tel" required></label>
-
 
                         <label class="reserv-date__label">E-mail
                             <input class="reserv-date__input" type="email">
@@ -271,25 +276,26 @@
                             <input class="reserv-date__input" type="checkbox">Я старше 18 лет
                         </label>
 
-
                     </fieldset>
-
 
                     <button class="reserv__form__button" type="submit">Забронировать</button>
 
                     <label class="reserv__form__checkbox">
                         <input class="reserv__form__checkbox__input" type="checkbox">Согласен на обработку данных
                     </label>
-
                 </form>
             </div>
-
         </section>
 
+
+
+
+
+
+
+
         <section class="about" id="me">
-
             <div class="container">
-
                 <h2 class="about__title">О нас</h2>
 
                 <div class="wrapper-about">
@@ -327,8 +333,6 @@
                                     <td>Аркадий Абакшин,<br> создатель игровой территории<br> GAME OVER.</td>
                                 </tr>
                             </table>
-
-
                         </div>
 
                     </div>
@@ -349,7 +353,6 @@
                         <img class="review__container__img" src="/img/maks.png" alt="Фото Макс Самойлов">
                     </figure>
 
-
                     <p class="review__container__quote review__container__quote__text">Отмечали Здесь день рождения с
                         компанией друзей, все было очень
                         круто! VR очки это просто бомба,
@@ -359,8 +362,6 @@
                             class="review__container__link " href="#">Макс
                             Самойлов</a></p>
                 </div>
-
-
 
                 <div class="review__container clearfix">
                     <figure class="review__container__figure">

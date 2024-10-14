@@ -4,6 +4,12 @@
 
 @import url(style.css);
 
+@import "servis.css";
+
+@import "nav.css";
+
+@import "reserv.css";
+
 @import url(faq.css);
 
 @import url(hall.css);

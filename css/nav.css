@@ -1,0 +1,38 @@
+.header {
+    padding-top: 38px;
+}
+
+.container__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation__list {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.navigation__link {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 2.27273;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navigation__button {
+    border: 3px solid #cd06ff;
+    border-radius: 10px;
+    width: 280px;
+    height: 55px;
+    background: #1b1a1b;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.36364;
+    text-transform: uppercase;
+    color: #fff;
+    align-self: center;
+}

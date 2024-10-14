@@ -12,6 +12,139 @@
     </p>
 
     <a href="/index.html">На главную</a>
+
+
+
+    <section class="reserv" id="bron">
+
+        <div class="container">
+
+            <h2 class="reserv__title">Забронировать зал просто</h2>
+
+            <form class="reserv__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+
+                <fieldset class="reserv-hall">
+
+                    <label class="reserv-hall__label">
+                        <input class="reserv-hall__input" type="radio" name="halls" value="80' vibes" required>80'
+                        vibes
+                    </label>
+                    <label class="reserv__label">
+                        <input class="reserv-hall__input" type="radio" name="halls" value="Star wars">star wars
+                    </label>
+                    <label class="reserv-hall__label">
+                        <input class="reserv-hall__input" type="radio" name="halls" value="Wild west">wild west
+                    </label>
+                    <label class="reserv-hall__label">
+                        <input class="reserv-hall__input" type="radio" name="halls" value="Neon style">neon style
+                    </label>
+
+                </fieldset>
+
+                <fieldset class="reserv-entertainment">
+                    <legend class="reserv-entertainment__title">
+                        <h3>Собери свой набор развлечений</h3>
+                    </legend>
+
+                    <fieldset class="reserv-consol">
+                        <legend class="reserv-consol__title">
+                            <h4>Приставки</h4>
+                        </legend>
+
+                        <label class="reserv-consol__label">
+                            <input class="reserv-consol__input" type="radio" name="console" value="PlayStation"
+                                required>PlayStation
+                        </label>
+                        <label class="reserv-consol__label">
+                            <input class="reserv-consol__input" type="radio" name="console" value="segamegadrive">Sega
+                            Mega
+                            Drive
+                        </label>
+                        <label class="reserv-consol__label">
+                            <input class="reserv-consol__input" type="radio" name="console" value="xbox">X-box One S
+                        </label>
+                        <label class="reserv-consol__label">
+                            <input class="reserv-consol__input" type="radio" name="console" value="dendy">Dendy
+                        </label>
+                    </fieldset>
+
+                    <fieldset class="reserv-game">
+                        <legend class="reserv-game__title">
+                            <h4>Настольные игры</h4>
+                        </legend>
+
+                        <label class="reserv-game__label">
+                            <input class="reserv-game__input" type="checkbox" name="game" value="jenga">Jenga
+                        </label>
+                        <label class="reserv-game__label">
+                            <input class="reserv-game__input" type="checkbox" name="game" value="monopoly">Monopoly
+                        </label>
+                        <label class="reserv-game__label">
+                            <input class="reserv-game__input" type="checkbox" name="game" value="manchkin">Манчкин
+                        </label>
+                        <label class="reserv-game__label">
+                            <input class="reserv-game__input" type="checkbox" name="game" value="alias">Alias
+                        </label>
+                    </fieldset>
+
+                    <fieldset class="reserv-additionally">
+                        <legend class="reserv-additionally__title">
+                            <h4>Дополнительно</h4>
+                        </legend>
+
+                        <label class="reserv-additionally__label">
+                            <input class="reserv-additionally__input" type="checkbox" name="dop" value="karaoke">Караоке
+                        </label>
+                        <label class="reserv-additionally__label">
+                            <input class="reserv-additionally__input" type="checkbox" name="dop" value="vr">VR
+                        </label>
+                    </fieldset>
+
+                </fieldset>
+
+                <fieldset class="reserv-date">
+                    <legend class="reserv-date__title">
+                        <h4>Выберите дату и время</h4>
+                    </legend>
+
+                    <label class="reserv-date__label">Дата
+                        <input class="reserv-date__input" type="date" required name="date"></label>
+                    <label class="reserv-date__label">Время
+                        <input class="reserv-date__input" type="time" required name="time"></label>
+
+                    <label class="reserv-date__label">Количество человек
+                        <input class="reserv-date__input" type="number" name="sum" required></label>
+
+                    <label class="reserv-date__label">Имя
+                        <input class="reserv-date__input" type="text" name="name" required></label>
+
+                    <label class="reserv-date__label">Фамилия
+                        <input class="reserv-date__input" type="text" name="surname" required></label>
+
+                    <label class="reserv-date__label">Номер телефона
+                        <input class="reserv-date__input" type="tel" name="tel" required></label>
+
+                    <label class="reserv-date__label">E-mail
+                        <input class="reserv-date__input" type="email">
+                    </label>
+
+                    <label class="reserv-date__label">
+                        <input class="reserv-date__input" type="checkbox">Я старше 18 лет
+                    </label>
+
+                </fieldset>
+
+                <button class="reserv__form__button" type="submit">Забронировать</button>
+
+                <label class="reserv__form__checkbox">
+                    <input class="reserv__form__checkbox__input" type="checkbox">Согласен на обработку данных
+                </label>
+            </form>
+        </div>
+    </section>
+
+
+
 </body>
 
 </html>

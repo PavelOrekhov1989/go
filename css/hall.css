@@ -5,13 +5,6 @@
 
 }
 
-.position-banner {
-    width: 1180px;
-    height: 823px;
-
-}
-
-
 
 .container__baner::before {
     content: "";

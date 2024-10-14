@@ -1,16 +1,18 @@
 html {
     box-sizing: border-box;
     position: relative;
+
 }
 
 *,
 *::before,
 *::after {
     box-sizing: inherit;
+
 }
 
 body {
-    width: 1440px;
+
     position: relative;
     overflow-x: hidden;
     min-width: 320px;
@@ -24,14 +26,17 @@ body {
 
 .container {
     max-width: 1440px;
-
     padding: 0 130px;
-
+    margin: 0 auto;
 
 }
 
 section {
     margin-bottom: 100px;
+}
+
+section:first-child {
+    margin-bottom: 50px;
 }
 
 img {
