@@ -2,7 +2,7 @@
     padding-top: 38px;
 }
 
-.container__header {
+.container-header {
     display: flex;
     justify-content: space-between;
 }
@@ -23,7 +23,7 @@
     color: #fff;
 }
 
-.navigation__button {
+.navigation-button {
     border: 3px solid #cd06ff;
     border-radius: 10px;
     width: 280px;

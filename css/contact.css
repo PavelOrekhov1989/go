@@ -1,4 +1,19 @@
+.container_bgcolor {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 629px;
+    background: linear-gradient(180deg, #1b1a1b 0%, #370a37 100%);
+}
+
+.container__footer-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
 .adress {
+    display: flex;
+
     margin-bottom: 40px;
 }
 
@@ -35,6 +50,7 @@
 }
 
 .adress__item {
+    display: flex;
     list-style: none;
 
 
@@ -46,6 +62,8 @@ ul a {
 }
 
 .adress__list {
+    display: flex;
+    flex-direction: column;
     font-weight: 700;
     font-size: 24px;
     line-height: 1.16667;

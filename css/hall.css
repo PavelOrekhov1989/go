@@ -1,4 +1,5 @@
 .container__baner {
+    display: flex;
     position: relative;
     width: 1180px;
     height: 823px;
@@ -114,4 +115,64 @@
 
 .span {
     padding-top: 135px;
+}
+
+
+.container__baner__content {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    text-align: center;
+}
+
+.container__baner__wrapper {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 150px;
+}
+
+.container__baner__content__text-color {
+    font-weight: 900;
+    font-size: 100px;
+    color: #cd06ff;
+}
+
+.container__baner__content__text-color2 {
+    font-weight: 900;
+    font-size: 75px;
+    font-variant: all-small-caps;
+    color: #cd06ff;
+}
+
+.container__baner__content__text {
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.container__baner__content__tr {
+    align-self: flex-end;
+    margin-right: 40px;
+
+}
+
+.container__baner__content__tr1 {
+
+    align-self: flex-end;
+}
+
+.container__baner__button {
+
+    border-radius: 10px;
+    width: 374px;
+    height: 80px;
+    background: #6c0287;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.15385;
+    text-transform: uppercase;
+    color: #fff;
 }

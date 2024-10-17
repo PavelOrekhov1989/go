@@ -6,9 +6,15 @@
 
 }
 
+.reserv-entertainmen-flex {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
 .reserv-hall {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 60px;
 }
 
@@ -50,4 +56,187 @@
     line-height: 1.33333;
     text-transform: uppercase;
     color: #000;
+}
+
+
+
+.reserv-consol {
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.reserv-game {
+    display: flex;
+    flex-direction: column;
+}
+
+.reserv-additionally {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type='radio'] {
+    transform: scale(2);
+}
+
+input[type='checkbox'] {
+    transform: scale(2);
+
+
+}
+
+.reserv-additionally__input,
+.reserv-consol__input,
+.reserv-game__input {
+    margin-right: 12px;
+
+}
+
+.reserv__text-h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16667;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.reserv-consol__label_mb,
+.reserv-game__label_mb,
+.reserv-additionally__label_mb {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+    padding-left: 5px;
+}
+
+.reserv-date {
+    border: none;
+}
+
+.reserv-date__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 50px;
+}
+
+.reserv-date__label {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14286;
+    color: #fff;
+}
+
+
+
+.reserv__form__button {
+    border-radius: 10px;
+    width: 300px;
+    height: 60px;
+}
+
+.reserv-date__input {
+    width: 300px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55556;
+    color: #211e1e;
+    padding-left: 20px;
+
+}
+
+.reserv-date__input_1 {
+    margin-right: 32px;
+    width: 134px;
+    height: 52px;
+}
+
+.reserv-date__input_2 {
+    width: 134px;
+    height: 52px;
+}
+
+
+
+.boxx {
+    position: relative;
+}
+
+.reserv-date__label1 {
+    position: absolute;
+    top: -16px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14286;
+    color: #fff;
+}
+
+.label-box-name {
+    position: relative;
+}
+
+.reserv-date-label-name {
+    position: absolute;
+    top: -16px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14286;
+    color: #fff;
+}
+
+.label-box-tel {
+    position: relative;
+}
+
+.reserv-date-label-tel {
+    position: absolute;
+    top: -16px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14286;
+    color: #fff;
+}
+
+.label__box-sum {
+    position: relative;
+}
+
+.reserv-date_sum {
+    position: absolute;
+    top: -16px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14286;
+    color: #fff;
+}
+
+.label-box-surname {
+    position: relative;
+}
+
+.reserv-date-label-surname {
+    position: absolute;
+    top: -16px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14286;
+    color: #fff;
+}
+
+.label-box-email {
+    position: relative;
+}
+
+.reserv-date__label-e-mail {
+    position: absolute;
+    top: -16px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14286;
+    color: #fff;
 }
