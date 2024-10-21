@@ -104,6 +104,10 @@ blockquote {
     text-transform: uppercase;
 }
 
+button {
+    transition-duration: 200ms;
+}
+
 h4 {
     margin: 0;
 }

@@ -7,10 +7,19 @@
 .servis__content {
     width: 380px;
     height: 228px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    transition-duration: 200ms;
+}
+
+.servis__content:hover {
+    transform: scale(1.2);
+
 }
 
 
 .servis__content_vr {
+    background-size: 100%;
     background-image: url(/img/vr.jpg);
 }
 
