@@ -12,7 +12,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url(/img/banner.png);
+    background-image: url(../img/banner.png);
     background-position: bottom right 0px;
     background-repeat: no-repeat;
     background-size: 675px 762px;
@@ -77,25 +77,25 @@
 
 
 .container__hall-vibes {
-    background-image: url(/img/80vibes.jpg);
+    background-image: url(../img/80vibes.jpg);
     background-repeat: no-repeat;
 
 }
 
 .container__hall-starwars {
-    background-image: url(/img/star\ wars.jpg);
+    background-image: url(../img/star\ wars.jpg);
     background-repeat: no-repeat;
 
 }
 
 .container__hall-wildwest {
-    background-image: url(/img/wild\ west.jpg);
+    background-image: url(../img/wild\ west.jpg);
     background-repeat: no-repeat;
 
 }
 
 .container__hall-neon {
-    background-image: url(/img/neon\ style.jpg);
+    background-image: url(../img/neon\ style.jpg);
     background-repeat: no-repeat;
 
 }
