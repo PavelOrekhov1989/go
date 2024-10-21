@@ -35,7 +35,24 @@
 
 .reserv-hall__radio__button input[type=radio] {
     display: none;
+
 }
+
+.reserv-hall__radio__button label {
+    line-height: 34px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    user-select: none;
+}
+
+.reserv-hall__radio__button input[type=radio]:checked+label {
+    border: 3px solid #cd06ff;
+    border-radius: 8px;
+    width: 250px;
+    height: 55px;
+}
+
+
 
 .reserv-hall__radio__button label {
     cursor: pointer;
@@ -64,8 +81,6 @@
     display: flex;
     flex-direction: column;
 
-
-
 }
 
 .reserv-game {
@@ -92,7 +107,6 @@ input[type='checkbox'] {
 .reserv-consol__input,
 .reserv-game__input {
     margin-right: 12px;
-
 }
 
 .reserv__text-h4 {
@@ -114,13 +128,21 @@ input[type='checkbox'] {
 }
 
 .reserv-date {
+
     border: none;
 }
 
+.reserv-date-position {
+    display: flex;
+    justify-content: center;
+}
+
 .reserv-date__wrap {
+    width: 1010px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: ;
     gap: 40px 50px;
 }
 
@@ -131,12 +153,31 @@ input[type='checkbox'] {
     color: #fff;
 }
 
-
-
 .reserv__form__button {
+    margin-left: auto;
     border-radius: 10px;
     width: 300px;
     height: 60px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.27273;
+    text-transform: uppercase;
+    color: #6c0287;
+}
+
+.reserv__form__button:hover {
+    background-color: #eadeed;
+    border: 3px solid #6c0287;
+
+}
+
+.reserv__form__button:focus {
+    border: 3px solid #6c0287;
+    background-color: #fff;
+}
+
+.reserv__form__button:active {
+    background-color: #eadeed;
 }
 
 .reserv-date__input {
@@ -160,8 +201,6 @@ input[type='checkbox'] {
     width: 134px;
     height: 52px;
 }
-
-
 
 .boxx {
     position: relative;
@@ -239,4 +278,13 @@ input[type='checkbox'] {
     font-size: 14px;
     line-height: 1.14286;
     color: #fff;
+}
+
+input:focus {
+    outline: 2px solid #cd06ff;
+}
+
+.reserv-date__input:focus {
+    outline: 2px solid #cd06ff;
+
 }

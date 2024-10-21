@@ -110,17 +110,13 @@
     word-wrap: break-word;
     text-align: center;
     color: #fff;
-
 }
 
 .span {
     padding-top: 135px;
 }
 
-
 .container__baner__content {
-    width: 500px;
-    height: 100%;
     display: flex;
     flex-wrap: wrap;
     align-self: center;
@@ -165,7 +161,10 @@
 }
 
 .container__baner__button {
-
+    position: absolute;
+    left: 0;
+    bottom: 200px;
+    z-index: 50;
     border-radius: 10px;
     width: 374px;
     height: 80px;
@@ -175,4 +174,55 @@
     line-height: 1.15385;
     text-transform: uppercase;
     color: #fff;
+}
+
+.container__baner__button:hover {
+    background-color: #840aa3;
+
+}
+
+.container__baner__button:focus {
+    background-color: #840aa3;
+}
+
+.container__baner__button:active {
+    background-color: #640aa3;
+}
+
+.container__button__moving {
+    position: absolute;
+    padding: 0;
+    color: #fff;
+    width: 97px;
+    height: 97px;
+    bottom: 90px;
+    left: 540px;
+    z-index: 150;
+    border: none;
+    background-image: none;
+    background-color: transparent;
+}
+
+
+
+
+.container__button__moving:hover {
+    border-radius: 100%;
+    width: 97px;
+    height: 97px;
+    fill: #fff;
+    stroke: #6c0287;
+    background-color: #fff;
+}
+
+
+
+.container__button__moving:active {
+    border-radius: 100%;
+    width: 97px;
+    height: 97px;
+    fill: #cd06ff;
+    stroke: #fff;
+    background-color: #cd06ff;
+
 }

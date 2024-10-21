@@ -36,3 +36,27 @@
     color: #fff;
     align-self: center;
 }
+
+
+
+.navigation-button:hover {
+    background-color: #6c0287;
+    border: 3px solid #6c0287;
+    border-radius: 10px;
+
+}
+
+.navigation-button:focus {
+    background-color: #6c0287;
+    border-radius: 10px;
+    width: 280px;
+    height: 55px;
+}
+
+.navigation-button:active {
+    background-color: #640aa3;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 280px;
+    height: 55px;
+}

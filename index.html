@@ -11,14 +11,9 @@
 </head>
 
 <body>
-
-
     <header>
-
         <section class="header">
-
             <div class="container container-header">
-
                 <img class="header__logo" src="/img/img-nav/logo.svg" alt="логотип">
 
                 <nav class="navigation">
@@ -43,15 +38,11 @@
 
                 <button class="navigation-button">Заказать звонок</button>
             </div>
-
         </section>
-
     </header>
 
     <main>
-
         <section class="banner">
-
             <div class="container position-banner">
 
                 <div class="container__baner ">
@@ -74,6 +65,15 @@
                         <div>
                             <button class="container__baner__button">Забронировать</button>
                         </div>
+
+                        <button class="container__button__moving"><svg width="97" height="97" viewBox="0 0 97 97"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="48.5" cy="48.5" r="48" stroke="white" />
+                                <rect x="34.4255" y="43.9161" width="1.82001" height="20.0201"
+                                    transform="rotate(-44.9975 34.4255 43.9161)" fill="currentcolor" />
+                                <rect x="48.5807" y="58.0737" width="1.82001" height="20.0201"
+                                    transform="rotate(-134.997 48.5807 58.0737)" fill="currentcolor" />
+                            </svg></button>
                     </div>
 
                 </div>
@@ -146,17 +146,12 @@
                             <a class="container__hall__text" href="/neon.html" target="_blank">Neon style</a>
                         </div>
                     </div>
-
                 </div>
-
             </div>
-
         </section>
 
         <section class="reserv" id="bron">
-
             <div class="container reserv__container">
-
                 <h2 class="reserv__title">Забронировать зал просто</h2>
 
                 <form class="reserv__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
@@ -251,73 +246,65 @@
                     </fieldset>
 
                     <fieldset class="reserv-date">
-
                         <h4 class="reserv__text">Выберите дату и время</h4>
 
-                        <div class="reserv-date__wrap">
-                            <div class="reserv-date__wr">
+                        <div class="reserv-date-position">
+
+                            <div class="reserv-date__wrap">
+                                <div class="reserv-date__wr">
+                                    <label class="reserv-date__label">
+                                        <select class="reserv-date__input reserv-date__input_1" name="date">
+                                            <option value="">Дата</option>
+                                            <option value="">2</option>
+                                            <option value="">3</option>
+                                        </select>
+                                    </label>
+
+                                    <label class="reserv-date__label">
+                                        <select class="reserv-date__input reserv-date__input_2" name="time">
+                                            <option value="">Время</option>
+                                            <option value="">2</option>
+                                            <option value="">3</option>
+                                        </select>
+                                    </label>
+                                </div>
+
+                                <div class="label-box-name">
+                                    <label class="reserv-date-label-name">Имя</label>
+                                    <input class="reserv-date__input" type="text" name="name" required>
+                                </div>
+
+
+                                <div class="label-box-tel">
+                                    <label class="reserv-date-label-tel">Телефон</label>
+                                    <input class="reserv-date__input" type="tel" name="tel" required>
+                                </div>
+
                                 <label class="reserv-date__label">
-                                    <select class="reserv-date__input reserv-date__input_1" name="date">
-                                        <option value="">Дата</option>
+                                    <select class="reserv-date__input reserv-date__input_3" name="time">
+                                        <option value="">Колличество человек</option>
+                                        <option value="">1</option>
                                         <option value="">2</option>
-                                        <option value="">3</option>
                                     </select>
                                 </label>
 
-                                <label class="reserv-date__label">
-                                    <select class="reserv-date__input reserv-date__input_2" name="time">
-                                        <option value="">Время</option>
-                                        <option value="">2</option>
-                                        <option value="">3</option>
-                                    </select>
-                                </label>
+                                <div class="label-box-surname">
+                                    <label class="reserv-date-label-surname">Фамилия</label>
+                                    <input class="reserv-date__input" type="text" name="surname" required>
+                                </div>
+
+                                <div class="label-box-email">
+                                    <label class="reserv-date__label-e-mail">E-mail</label>
+                                    <input class="reserv-date__input " type="email">
+                                </div>
+
+                                <button class="reserv__form__button reserv__form__button_ml"
+                                    type="submit">Забронировать</button>
                             </div>
-
-                            <div class="label-box-name">
-                                <label class="reserv-date-label-name">Имя</label>
-                                <input class="reserv-date__input" type="text" name="name" required>
-                            </div>
-
-
-                            <div class="label-box-tel">
-                                <label class="reserv-date-label-tel">Телефон</label>
-                                <input class="reserv-date__input" type="tel" name="tel" required>
-
-                            </div>
-
-                            <label class="reserv-date__label">
-                                <select class="reserv-date__input reserv-date__input_3" name="time">
-                                    <option value="">Колличество человек</option>
-                                    <option value="">1</option>
-                                    <option value="">2</option>
-                                </select>
-                            </label>
-
-                            <div class="label-box-surname">
-                                <label class="reserv-date-label-surname">Фамилия</label>
-                                <input class="reserv-date__input" type="text" name="surname" required>
-                            </div>
-
-                            <div class="label-box-email">
-                                <label class="reserv-date__label-e-mail">E-mail</label>
-                                <input class="reserv-date__input " type="email">
-
-                            </div>
-
-                            <div class="reserv__form__button"></div>
-                            <div class="reserv__form__button"></div>
-
-                            <button class="reserv__form__button" type="submit">Забронировать</button>
                         </div>
-
                     </fieldset>
-
                 </form>
-
-
             </div>
-
-
         </section>
 
         <section class="about" id="me">
@@ -420,50 +407,54 @@
                             class="review__container__link " href="#">Никита
                             Ященко</a></p>
                 </div>
-
             </div>
-
         </section>
 
         <section class="fag">
-
             <div class="container">
-
                 <h2 class="fag__title">Частые вопросы</h2>
 
-                <ul class="fag__list">
-                    <li class="fag__item fag__item_bg-img">Можно ли забронировать комнату онлайн?
+                <div class="fag__list">
+                    <div class="fag__list-white">
+                        <div class="fag__item fag__item_bg-img1">Можно ли забронировать комнату онлайн?
+                        </div>
+                        <button class="faq-button"></button>
+                    </div>
 
-                    </li>
-                    <li class="fag__item fag__item_bg-img">Могу ли я вернуть деньги за бронь?
+                    <div class="fag__list-white">
+                        <div class="fag__item fag__item_purpul">Могу ли я вернуть деньги за бронь?
+                        </div>
+                        <button class="faq-button-white"></button>
+                    </div>
 
-                    </li>
-                    <li class="fag__item fag__item_bg-img">Какая комната самая популярная?
+                    <div class="fag__list-white">
+                        <div class="fag__item ">Какая комната самая популярная?
+                        </div>
+                        <button class="faq-button"></button>
+                    </div>
 
-                    </li>
-                    <li class="fag__item fag__item_bg-img">Как получить VIP карту?
+                    <div class="fag__list-white">
+                        <div class="fag__item fag__item_purpul">Как получить VIP карту?
+                        </div>
+                        <button class="faq-button-white"></button>
+                    </div>
 
-                    </li>
-                    <li class="fag__item fag__item_bg-img">Какая комната самая популярная?
-
-                    </li>
-                </ul>
+                    <div class="fag__list-white">
+                        <div class="fag__item fag__item_bg-img">Какая комната самая популярная?
+                        </div>
+                        <button class="faq-button"></button>
+                    </div>
+                </div>
             </div>
-
         </section>
-
     </main>
 
-
     <footer class="footer" id="con">
-
         <section>
 
             <h2 class="footer__title">Контакты</h2>
 
             <div class="container container_bgcolor">
-
-
                 <div class="container__footer-wrap">
 
                     <div class="adress">
@@ -496,7 +487,6 @@
                                 </a>
                                 <p class="float-text">8 (950) 930 - 28 - 93</p>
                             </li>
-
 
                             <li class="adress__item adress__item-mail">
                                 <a class="float-img" href=" #"><svg width="36" height="32" viewBox="0 0 36 32"
@@ -570,12 +560,9 @@
 
                 </div>
 
-
                 <div class="footer__location"><img src="/img/map.jpg" alt=""></div>
             </div>
-
         </section>
-
     </footer>
 </body>
 

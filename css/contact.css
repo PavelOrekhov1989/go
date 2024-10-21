@@ -76,3 +76,15 @@ ul a {
     height: 50px;
     color: #fff;
 }
+
+.social__link:hover {
+    color: #eadeed;
+}
+
+.social__link:focus {
+    color: #eadeed;
+}
+
+.social__link:active {
+    color: #cd06ff;
+}
