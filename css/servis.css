@@ -7,6 +7,8 @@
 .servis__wrapper {
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
+    height: 708px;
     column-gap: var(--gap);
     row-gap: 40px;
 }
@@ -50,7 +52,7 @@
 }
 
 .servis__content_cinema {
-    transform: translateY(50px);
+    transform: translateY(70px);
     background-image: url(../img/netflix.jpg);
 }
 
