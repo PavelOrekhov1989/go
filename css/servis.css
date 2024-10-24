@@ -24,7 +24,10 @@
 
 .servis__content:hover {
     transform: scale(1.1);
+}
 
+.servis__content:hover:nth-child(3n+2) {
+    transform: translateY(70px) scale(1.1);
 }
 
 
@@ -35,9 +38,6 @@
 
 .servis__content_audio {
     transform: translateY(70px);
-
-
-
     background-image: url(../img/audio.jpg);
 }
 
