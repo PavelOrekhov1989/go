@@ -18,15 +18,32 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 1.4;
-    color: #fff;
+    color: var(--color-text, #fff);
 
 }
 
-.review__container__img {
+.review__container__figure {
+    position: relative;
     margin-bottom: 11px;
 }
+
+
+.review__container__figure::after {
+    content: "";
+    position: absolute;
+    left: 100px;
+    border-radius: 140px;
+    width: 280px;
+    height: 280px;
+    background: transparent;
+    opacity: 0.3;
+    background: radial-gradient(50% 50% at 50% 50%, rgb(196, 196, 196) 0%, rgb(108, 2, 135) 100%);
+}
+
 
 .review__container__quote__text {
     padding-right: 100px;
     padding-top: 50px;
 }
+
+var(--color-text, #fff)

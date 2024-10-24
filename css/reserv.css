@@ -2,7 +2,7 @@
     padding-top: 80px;
     width: 1440px;
     height: 1114px;
-    background-color: #440f51;
+    background-color: var(--color-main, #440f51);
 
 }
 
@@ -23,7 +23,7 @@
     font-size: 24px;
     line-height: 1.16667;
     text-align: center;
-    color: #fff;
+    color: var(--color-text, #fff);
     margin-bottom: 40px;
 }
 
@@ -60,7 +60,7 @@
     line-height: 40px;
     width: 250px;
     height: 55px;
-    background-color: #fff;
+    background-color: var(--color-text, #fff);
     color: #000;
     border-radius: 6px;
     user-select: none;
@@ -113,7 +113,7 @@ input[type='checkbox'] {
     font-weight: 700;
     font-size: 24px;
     line-height: 1.16667;
-    color: #fff;
+    color: var(--color-text, #fff);
     margin-bottom: 24px;
 }
 
@@ -123,7 +123,7 @@ input[type='checkbox'] {
     margin-bottom: 20px;
     font-weight: 400;
     font-size: 22px;
-    color: #fff;
+    color: var(--color-text, #fff);
     padding-left: 5px;
 }
 
@@ -150,7 +150,7 @@ input[type='checkbox'] {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14286;
-    color: #fff;
+    color: var(--color-text, #fff);
 }
 
 .reserv__form__button {
@@ -162,18 +162,18 @@ input[type='checkbox'] {
     font-size: 22px;
     line-height: 1.27273;
     text-transform: uppercase;
-    color: #6c0287;
+    color: var(--color-287, #6c0287);
 }
 
 .reserv__form__button:hover {
     background-color: #eadeed;
-    border: 3px solid #6c0287;
+    border: 3px solid var(--color-287, #6c0287);
 
 }
 
 .reserv__form__button:focus {
-    border: 3px solid #6c0287;
-    background-color: #fff;
+    border: 3px solid var(--color-287, #6c0287);
+    background-color: var(--color-text, #fff);
 }
 
 .reserv__form__button:active {
@@ -212,7 +212,7 @@ input[type='checkbox'] {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14286;
-    color: #fff;
+    color: var(--color-text, #fff);
 }
 
 .label-box-name {
@@ -225,7 +225,7 @@ input[type='checkbox'] {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14286;
-    color: #fff;
+    color: var(--color-text, #fff);
 }
 
 .label-box-tel {
@@ -238,7 +238,7 @@ input[type='checkbox'] {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14286;
-    color: #fff;
+    color: var(--color-text, #fff);
 }
 
 .label__box-sum {
@@ -251,7 +251,7 @@ input[type='checkbox'] {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14286;
-    color: #fff;
+    color: var(--color-text, #fff);
 }
 
 .label-box-surname {
@@ -264,7 +264,7 @@ input[type='checkbox'] {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14286;
-    color: #fff;
+    color: var(--color-text, #fff);
 }
 
 .label-box-email {
@@ -277,14 +277,14 @@ input[type='checkbox'] {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14286;
-    color: #fff;
+    color: var(--color-text, #fff);
 }
 
 input:focus {
-    outline: 2px solid #cd06ff;
+    outline: 2px solid var(--color-6ff, #cd06ff);
 }
 
 .reserv-date__input:focus {
-    outline: 2px solid #cd06ff;
+    outline: 2px solid var(--color-6ff, #cd06ff);
 
 }

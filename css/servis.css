@@ -1,15 +1,21 @@
+.servis__container {
+    --cart-count: 3;
+    --gap: 20px;
+}
+
 .servis__wrapper {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px 20px;
+    gap: var(--gap);
 }
 
 .servis__content {
-    width: 380px;
+    flex-basis: calc(100% / var(--cart-count) - (var(--gap) * (var(--cart-count) - 1)) / var(--cart-count));
     height: 228px;
     cursor: pointer;
     background-repeat: no-repeat;
     transition-duration: 200ms;
+
 }
 
 .servis__content:hover {
@@ -19,11 +25,14 @@
 
 
 .servis__content_vr {
-    background-size: 100%;
+
     background-image: url(../img/vr.jpg);
 }
 
 .servis__content_audio {
+
+    margin-top: 70px;
+
     background-image: url(../img/audio.jpg);
 }
 
@@ -32,14 +41,18 @@
 }
 
 .servis__content_game {
+    margin-top: -70px;
+    align-self: flex-start;
     background-image: url(../img/game.jpg);
 }
 
 .servis__content_cinema {
+
     background-image: url(../img/netflix.jpg);
 }
 
 .servis__content_playstation {
+    margin-top: -70px;
     background-image: url(../img/sony.jpg);
 }
 
@@ -49,5 +62,5 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 1.4;
-    color: #fff;
+    color: var(--color-text, #fff);
 }

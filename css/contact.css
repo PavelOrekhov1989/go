@@ -67,14 +67,14 @@ ul a {
     font-weight: 700;
     font-size: 24px;
     line-height: 1.16667;
-    color: #fff;
+    color: var(--color-text, #fff);
 }
 
 .social__link {
     display: block;
     width: 50px;
     height: 50px;
-    color: #fff;
+    color: var(--color-text, #fff);
 }
 
 .social__link:hover {
@@ -86,5 +86,5 @@ ul a {
 }
 
 .social__link:active {
-    color: #cd06ff;
+    color: var(--color-6ff, #cd06ff);
 }

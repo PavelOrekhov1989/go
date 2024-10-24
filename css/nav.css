@@ -20,11 +20,11 @@
     font-size: 22px;
     line-height: 2.27273;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--color-text, #fff);
 }
 
 .navigation-button {
-    border: 3px solid #cd06ff;
+    border: 3px solid var(--color-6ff, #cd06ff);
     border-radius: 10px;
     width: 280px;
     height: 55px;
@@ -33,21 +33,21 @@
     font-size: 22px;
     line-height: 1.36364;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--color-text, #fff);
     align-self: center;
 }
 
 
 
 .navigation-button:hover {
-    background-color: #6c0287;
-    border: 3px solid #6c0287;
+    background-color: var(--color-287, #6c0287);
+    border: 3px solid var(--color-287, #6c0287);
     border-radius: 10px;
 
 }
 
 .navigation-button:focus {
-    background-color: #6c0287;
+    background-color: var(--color-287, #6c0287);
     border-radius: 10px;
     width: 280px;
     height: 55px;

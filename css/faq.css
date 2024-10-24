@@ -4,7 +4,7 @@
     align-items: center;
     width: 1180px;
     height: 87px;
-    background-color: #fff;
+    background-color: var(--color-text, #fff);
     color: #1C1A1A;
     font-weight: 700;
     font-size: 24px;
@@ -17,23 +17,22 @@
 
 .fag__item {
     width: 980px;
-    color: #1C1A1A;
     font-weight: 700;
     font-size: 24px;
     list-style: none
 }
 
 .fag__list-white:nth-child(2n) {
-    background-color: #440F51;
+    background-color: var(--color-main, #440F51);
 }
 
 .fag__item_purpul {
-    color: white;
+    color: var(--color-text, #fff);
 }
 
 .faq-button {
     background-image: url(../icon/img/open-purple.svg);
-    background-color: white;
+    background-color: var(--color-text, #fff);
     width: 46px;
     height: 46px;
     border: none;
@@ -41,7 +40,7 @@
 
 .faq-button-white {
     background-image: url(../icon/img/open.svg);
-    background-color: #440F51;
+    background-color: var(--color-main, #440F51);
     width: 46px;
     height: 46px;
     border: none;

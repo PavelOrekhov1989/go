@@ -2,7 +2,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 1.4;
-    color: #fff;
+    color: var(--color-text, #fff);
 }
 
 .block-text {
@@ -10,7 +10,7 @@
     font-size: 44px;
     line-height: 1.13636;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--color-text, #fff);
 }
 
 
@@ -46,12 +46,12 @@
 
 .block-text:before {
     content: "“ ";
-    font-weight: 900;
+    font-weight: 900px;
 
     font-size: 44px;
     line-height: 1.13636;
     text-transform: uppercase;
-    color: #6c0287;
+    color: var(--color-287, #6c0287);
 }
 
 .block-text:after {
@@ -61,7 +61,7 @@
     font-size: 44px;
     line-height: 1.13636;
     text-transform: uppercase;
-    color: #6c0287;
+    color: var(--color-287, #6c0287);
     transform: rotate(180deg);
 }
 
@@ -71,7 +71,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 1.4;
-    color: #fff;
+    color: var(--color-text, #fff);
 }
 
 .author-padin {
