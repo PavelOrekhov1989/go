@@ -1,12 +1,14 @@
 .servis__container {
     --cart-count: 3;
     --gap: 20px;
+
 }
 
 .servis__wrapper {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--gap);
+    column-gap: var(--gap);
+    row-gap: 40px;
 }
 
 .servis__content {
@@ -30,8 +32,9 @@
 }
 
 .servis__content_audio {
+    transform: translateY(70px);
 
-    margin-top: 70px;
+
 
     background-image: url(../img/audio.jpg);
 }
@@ -41,18 +44,18 @@
 }
 
 .servis__content_game {
-    margin-top: -70px;
+
     align-self: flex-start;
     background-image: url(../img/game.jpg);
 }
 
 .servis__content_cinema {
-
+    transform: translateY(50px);
     background-image: url(../img/netflix.jpg);
 }
 
 .servis__content_playstation {
-    margin-top: -70px;
+
     background-image: url(../img/sony.jpg);
 }
 
