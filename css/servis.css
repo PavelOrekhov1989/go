@@ -22,7 +22,7 @@
     cursor: pointer;
     background-repeat: no-repeat;
     transition-duration: 200ms;
-    background-size: contain;
+    background-size: cover;
 
 }
 
@@ -87,5 +87,18 @@
     .servis__content__text {
         font-size: 20px;
 
+    }
+
+}
+
+@media (max-width: 900px) {
+    .servis__content {
+        width: 334px;
+        transform: none;
+    }
+
+    .servis__container {
+        --cart-count: 2;
+        --gap: 20px;
     }
 }

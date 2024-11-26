@@ -59,12 +59,13 @@
 
 
 .container__hall {
+    display: flex;
+    flex-wrap: wrap;
     font-weight: 700;
-    font-size: 70px;
     line-height: 1.14286;
-
     text-align: center;
     color: var(--color-text, #fff);
+    gap: 20px;
 }
 
 
@@ -72,11 +73,6 @@
 .container__hall__item {
     width: 580px;
     height: 349px;
-    display: inline-block;
-    margin-bottom: 20px;
-    position: relative;
-
-
 }
 
 .container__hall__item:nth-last-child(-n+ 2) {
@@ -110,22 +106,15 @@
 }
 
 .container__hall__text {
-
-
     font-weight: 700;
     font-size: 70px;
-    line-height: 1.14286;
-    text-transform: uppercase;
-    text-align: center;
+
     color: var(--color-text, #fff);
 }
 
 .span {
     padding-top: 94px;
-    width: 252px;
     margin: 0 auto;
-
-
 }
 
 .container__baner__content {
@@ -365,4 +354,16 @@
         height: 46px;
         font-size: 16px;
     }
+
+    .container__hall__item {
+        width: 329px;
+        height: 200px;
+    }
+
+    .container__hall__text {
+        font-size: 40px;
+        line-height: 1.5;
+    }
+
+
 }
