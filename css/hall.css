@@ -329,6 +329,11 @@
         font-size: 86px;
     }
 
+    .container__baner__text {
+        top: 100px;
+        font-size: 18px;
+    }
+
     .container__baner::before {
         width: 409px;
         height: 479px;
@@ -336,5 +341,28 @@
 
     .container__baner__content {
         padding-top: 90px;
+    }
+
+    .container__button__moving {
+        display: none;
+    }
+
+    .container__baner__content__text {
+        font-size: 16px;
+    }
+
+    .container__baner__content__text-color {
+        font-size: 50px;
+    }
+
+    .container__baner__content__text-color2 {
+        font-size: 40px;
+    }
+
+    .container__baner__button {
+        left: 0;
+        width: 214px;
+        height: 46px;
+        font-size: 16px;
     }
 }
