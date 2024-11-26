@@ -316,12 +316,25 @@
     }
 
     .container__hall__text {
-        font-weight: 700;
         font-size: 50px;
-        line-height: 1.2;
-        text-transform: uppercase;
-        text-align: center;
-        color: #fff;
+    }
+}
+
+@media (max-width: 900px) {
+    .container__baner {
+        height: 537px;
     }
 
+    .container__baner__paragraph {
+        font-size: 86px;
+    }
+
+    .container__baner::before {
+        width: 409px;
+        height: 479px;
+    }
+
+    .container__baner__content {
+        padding-top: 90px;
+    }
 }

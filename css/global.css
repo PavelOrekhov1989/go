@@ -133,3 +133,11 @@ h4 {
         font-size: 30px;
     }
 }
+
+@media (max-width: 900px) {
+    .container {
+        max-width: 768px;
+        padding: 0 40px;
+        margin: 0 auto;
+    }
+}
