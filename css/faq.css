@@ -1,8 +1,8 @@
 .fag__list-white {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 1180px;
+    max-width: 1180px;
     height: 87px;
     background-color: var(--color-text, #fff);
     color: #1C1A1A;
@@ -13,10 +13,10 @@
     list-style: none
 }
 
-.fag__list_purpul {}
+
 
 .fag__item {
-    width: 980px;
+    max-width: 980px;
     font-weight: 700;
     font-size: 24px;
     list-style: none
@@ -68,4 +68,21 @@
     background-image: url(../icon/img/activewhite.svg);
     width: 46px;
     height: 46px;
+}
+
+
+@media (max-width: 1395px) {
+    .fag__item {
+        font-size: 20px;
+        color: #1c1a1a;
+    }
+
+    .fag__list-white:nth-child(2n) {
+        background-color: #fff;
+    }
+
+    .faq-button-white {
+        background-image: url(/icon/img/open-purple.svg);
+        background-color: #fff;
+    }
 }

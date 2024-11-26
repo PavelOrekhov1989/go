@@ -1,0 +1,42 @@
+.position-banner {
+    width: 1440px;
+    height: 750px;
+    padding-top: 280px;
+    background-image: url(/img/picture80.jpg);
+    margin-bottom: 100px;
+}
+
+.position-banner-neon {
+    background-image: url(/img/computre.jpg);
+}
+
+.position-banner-star {
+    background-image: url(/img/Dartw.jpg);
+}
+
+.position-banner-wild {
+    background-image: url(/img/texas.jpg);
+}
+
+.banner__title {
+    font-weight: 700;
+    font-size: var(--fs-90);
+    line-height: 0.88889;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.banner__wrap-text {
+    max-width: 1000px;
+    height: 108px;
+    margin: 0 auto;
+}
+
+.banner-text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+}

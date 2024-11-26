@@ -1,0 +1,34 @@
+.wrap-content {
+    display: flex;
+    gap: 20px;
+}
+
+.wrap-content-bgc-img {
+    width: 380px;
+    height: 229px;
+    background-size: contain;
+    padding-top: 78px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.wrap-content-bgc-wild {
+    background-image: url(/img/wild\ west.jpg);
+}
+
+.wrap-content-bgc-star {
+    background-image: url(/img/star\ wars.jpg);
+
+}
+
+.wrap-content-bgc-neon {
+    background-image: url(/img/neon\ style.jpg);
+}
+
+.wrap-content-bgc-80 {
+    background-image: url(/img/80vibes.jpg);
+}

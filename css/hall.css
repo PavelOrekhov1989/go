@@ -1,21 +1,32 @@
 .container__baner {
     display: flex;
     position: relative;
-    width: 1180px;
+    max-width: 1180px;
     height: 823px;
 
 }
 
 
+
+.header {
+    margin-bottom: 50px;
+}
+
+.container-header {
+    margin-bottom: 50px;
+}
+
 .container__baner::before {
     content: "";
+    display: block;
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 675px;
+    height: 762px;
     background-image: url(../img/banner.png);
-    background-position: bottom right 0px;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: 675px 762px;
+    bottom: 0;
+    right: 0;
     z-index: 20;
 }
 
@@ -38,7 +49,6 @@
 .container__baner__text {
     position: absolute;
     top: 150px;
-    margin-top: 0;
     padding-left: 100px;
     font-weight: 400;
     font-size: 28px;
@@ -49,12 +59,10 @@
 
 
 .container__hall {
-    vertical-align: top;
-    list-style: none;
     font-weight: 700;
     font-size: 70px;
     line-height: 1.14286;
-    text-transform: uppercase;
+
     text-align: center;
     color: var(--color-text, #fff);
 }
@@ -79,41 +87,45 @@
 .container__hall-vibes {
     background-image: url(../img/80vibes.jpg);
     background-repeat: no-repeat;
+    background-size: contain;
 
 }
 
 .container__hall-starwars {
     background-image: url(../img/star\ wars.jpg);
     background-repeat: no-repeat;
-
+    background-size: contain;
 }
 
 .container__hall-wildwest {
     background-image: url(../img/wild\ west.jpg);
     background-repeat: no-repeat;
-
+    background-size: contain;
 }
 
 .container__hall-neon {
     background-image: url(../img/neon\ style.jpg);
     background-repeat: no-repeat;
-
+    background-size: contain;
 }
 
 .container__hall__text {
-    text-decoration: none;
+
 
     font-weight: 700;
     font-size: 70px;
     line-height: 1.14286;
     text-transform: uppercase;
-    word-wrap: break-word;
     text-align: center;
     color: var(--color-text, #fff);
 }
 
 .span {
-    padding-top: 135px;
+    padding-top: 94px;
+    width: 252px;
+    margin: 0 auto;
+
+
 }
 
 .container__baner__content {
@@ -224,5 +236,92 @@
     fill: #cd06ff;
     stroke: var(--color-text, #fff);
     background-color: var(--color-6ff, #cd06ff);
+
+}
+
+@media (max-width: 1395px) {
+    .container__baner__paragraph {
+        font-size: 120px;
+    }
+
+    .container__baner {
+        display: flex;
+        position: relative;
+        max-width: 904px;
+        height: 583px;
+    }
+
+    .container__baner__content {
+        padding-top: 150px;
+    }
+
+    .container__baner::before {
+        width: 453px;
+        height: 520px;
+    }
+
+    .header {
+        margin-bottom: 30px;
+    }
+
+    .container__baner__paragraph {
+        font-size: 120px;
+    }
+
+    .container__baner__text {
+        font-size: 22px;
+        top: 120px;
+
+    }
+
+    .container__baner__content__text-color {
+        font-size: 80px;
+    }
+
+    .container__baner__content__text-color2 {
+        font-size: 60px;
+    }
+
+    .container__baner__content__text {
+        font-size: 26px;
+    }
+
+    .container__baner__button {
+        width: 296px;
+        height: 64px;
+    }
+
+    .container__baner__button {
+        font-size: 22px;
+
+        bottom: 90px;
+        left: 39px;
+    }
+
+    .container__button__moving {
+        width: 67px;
+        height: 67px;
+        left: 418px;
+    }
+
+    .container__hall__item {
+        width: 442px;
+        height: 267px;
+    }
+
+    .span {
+        padding-top: 50px;
+        width: 200px;
+
+    }
+
+    .container__hall__text {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+    }
 
 }

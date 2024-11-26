@@ -1,3 +1,9 @@
+.wrapper-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .about__text {
     font-weight: 400;
     font-size: 20px;
@@ -6,6 +12,7 @@
 }
 
 .block-text {
+    position: relative;
     font-weight: 400;
     font-size: 44px;
     line-height: 1.13636;
@@ -16,38 +23,47 @@
 
 
 .bg-image {
-    display: inline-block;
     width: 600px;
     height: 596px;
-    margin-right: 70px;
+
     background-image: url(../img/about.jpg);
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
 .wrapper-about__content__text {
     width: 500px;
     height: 222px;
-    margin-bottom: 60px;
+
 }
 
 .about__autor {
     width: 500px;
     height: 325px;
-
-
 }
 
 .inline-block {
-    display: inline-block;
-    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
+.about__autor-wrap {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 40px;
+}
 
-.block-text:before {
-    content: "“ ";
-    font-weight: 900px;
 
+.about__autor-wrap:before {
+
+    content: " “ ";
+    position: absolute;
+    left: 0;
+    top: -20px;
+    padding-left: -20px;
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.13636;
     text-transform: uppercase;
@@ -60,14 +76,14 @@
 
     font-size: 44px;
     line-height: 1.13636;
+
     text-transform: uppercase;
     color: var(--color-287, #6c0287);
     transform: rotate(180deg);
 }
 
 .author {
-    display: flex;
-    justify-content: right;
+    padding-left: 70px;
     font-weight: 400;
     font-size: 20px;
     line-height: 1.4;
@@ -76,4 +92,48 @@
 
 .author-padin {
     padding-right: 30px;
+
+}
+
+@media (max-width: 1395px) {
+    .wrapper-about {
+        width: 904px;
+        height: 440px;
+    }
+
+    .about__autor-wrap {
+        margin-bottom: 20px;
+    }
+
+    .container__about {
+        height: 400px;
+    }
+
+    .bg-image {
+        width: 420px;
+        height: 417px;
+    }
+
+    .wrapper-about__content__text {
+        width: 444px;
+        height: 195px;
+        font-size: 18px;
+    }
+
+    .about__text {
+        font-size: 18px;
+    }
+
+    .about__autor {
+        width: 444px;
+    }
+
+    .block-text {
+        width: 400px;
+        font-size: 30px;
+    }
+
+    .author__padin2 {
+        font-size: 18px;
+    }
 }

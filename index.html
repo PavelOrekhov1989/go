@@ -13,30 +13,36 @@
 <body>
     <header>
         <section class="header">
-            <div class="container container-header">
-                <img class="header__logo" src="./img/img-nav/logo.svg" alt="логотип">
+            <div class="container ">
+                <div class="container-header">
+                    <img class="header__logo" src="./img/img-nav/logo.svg" alt="логотип">
 
-                <nav class="navigation">
-                    <ul class="navigation__list">
-                        <li class="navigation__item">
-                            <a class="navigation__link" href="#hall">Залы</a>
-                        </li>
-                        <li class="navigation__item">
-                            <a class="navigation__link" href="#me">О нас</a>
-                        </li>
-                        <li class="navigation__item">
-                            <a class="navigation__link" href="#bron">Бронь</a>
-                        </li>
-                        <li class="navigation__item">
-                            <a class="navigation__link" href="#otzyv">Отзывы</a>
-                        </li>
-                        <li class="navigation__item">
-                            <a class="navigation__link" href="#con">Контакты</a>
-                        </li>
-                    </ul>
-                </nav>
+                    <nav class="navigation">
+                        <ul class="navigation__list">
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="#hall">Залы</a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="#me">О нас</a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="#bron">Бронь</a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="#otzyv">Отзывы</a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="#con">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
 
-                <button class="navigation-button">Заказать звонок</button>
+                    <div>
+                        <button class="navigation-button">Заказать звонок</button>
+                    </div>
+
+                </div>
+
             </div>
         </section>
     </header>
@@ -63,8 +69,9 @@
                         </div>
 
                         <div>
-                            <button class="container__baner__button">Забронировать</button>
+                            <button class="container__baner__button" form="form">Забронировать</button>
                         </div>
+
 
                         <button class="container__button__moving"><svg width="97" height="97" viewBox="0 0 97 97"
                                 fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -124,7 +131,7 @@
 
                     <div class="container__hall__item container__hall-vibes">
                         <div class="span">
-                            <a class="container__hall__text" href="/vibes.html" target="_blank">80' vibes</a>
+                            <a class="container__hall__text" href="/vibes.html" target="_blank">80's vibes</a>
                         </div>
                     </div>
 
@@ -154,7 +161,7 @@
             <div class="container reserv__container">
                 <h2 class="reserv__title">Забронировать зал просто</h2>
 
-                <form class="reserv__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+                <form class="reserv__form" id="form" action="https://jsonplaceholder.typicode.com/posts" method="post">
                     <h3 class="reserv__text">Выбери зал</h3>
 
 
@@ -308,7 +315,7 @@
         </section>
 
         <section class="about" id="me">
-            <div class="container">
+            <div class="container ">
                 <h2 class="about__title">О нас</h2>
 
                 <div class="wrapper-about">
@@ -324,7 +331,7 @@
                                 центральной
                                 части города.
                             </p>
-                            <br><br>
+                            <br>
                             <p class="about__text">Каждый день мы стараемся создавать для вас самую лучшую игровую
                                 атмосферу
                                 и
@@ -335,15 +342,17 @@
                         </div>
 
                         <div class="about__autor">
-                            <blockquote>
-                                <p class="block-text">Game Over — <br> это место незабываемых впечатлений</p>
-                            </blockquote>
+                            <div class="about__autor-wrap">
+                                <p class="block-text">Game Over — это место незабываемых впечатлений</p>
+                            </div>
+
 
                             <table class="author">
                                 <tr>
                                     <td class="author-padin"><img src="/img/Ellipse2.png" width="80" height="80"
                                             alt="Аркадий Абакшин"></td>
-                                    <td>Аркадий Абакшин,<br> создатель игровой территории<br> GAME OVER.</td>
+                                    <td class="author__padin2">Аркадий Абакшин,<br> создатель игровой <br> территории
+                                        GAME OVER.</td>
                                 </tr>
                             </table>
                         </div>
@@ -357,58 +366,73 @@
 
         <section class="review" id="otzyv">
 
-            <div class="container clearfix">
+            <div class="container">
 
                 <h2 class="review__title">Отзывы посетителей</h2>
 
-                <div class="review__container ">
-                    <figure class="review__container__figure">
-                        <img class="" src="./img/maks.png" alt="Фото Макс Самойлов">
-                    </figure>
+                <div class="review__wrap">
+                    <div class="review__container ">
+                        <div class="review__container-author">
+                            <figure class="review__container__figure">
+                                <img class="" src="./img/maks.png" alt="Фото Макс Самойлов">
+                            </figure>
 
-                    <p class="review__container__quote review__container__quote__text">Отмечали Здесь день рождения с
-                        компанией друзей, все было очень
-                        круто! VR очки это просто бомба,
-                        никогда еще не был в таком полном игровом погружении. Сервис на высоте!</p>
+                            <p class="review__container__quote review__container__name float-clear "><a
+                                    class="review__container__link " href="#">Макс
+                                    Самойлов</a>
+                            </p>
+                        </div>
 
-                    <p class="review__container__quote review__container__name float-clear "><a
-                            class="review__container__link " href="#">Макс
-                            Самойлов</a></p>
+
+                        <p class="review__container__quote review__container__quote__text">Отмечали здесь день рождения
+                            с
+                            компанией друзей, все было очень
+                            круто! VR очки это просто бомба,
+                            никогда еще не был в таком полном игровом погружении. Сервис на высоте!</p>
+
+                    </div>
+
+                    <div class="review__container ">
+                        <div class="review__container-author">
+                            <figure class="review__container__figure">
+                                <img class="" src="./img/oksana.png" alt="Фото Оксана Григорьева">
+                            </figure>
+
+                            <p class="review__container__quote review__container__name float-clear "><a
+                                    class="review__container__link " href="#">Оксана
+                                    Григорьева</a>
+                            </p>
+                        </div>
+
+
+                        <p class="review__container__quote review__container__quote__text">Были в комнате Дикий Запад,
+                            пели
+                            в караоке под Шакиру,
+                            отличный
+                            получился корпоратив! У нас в
+                            городе больше нет подобных заведений.</p>
+
+                    </div>
+                    <div class="review__container ">
+                        <div class="review__container-author">
+                            <figure class="review__container__figure">
+                                <img class="" src="./img/nikita.png" alt="фото никита ященко">
+                            </figure>
+
+                            <p class="review__container__quote review__container__name float-clear "><a
+                                    class="review__container__link " href="#">Никита
+                                    Ященко</a>
+                            </p>
+                        </div>
+
+                        <p class="review__container__quote review__container__quote__text">Немного подвисала игра в VR
+                            очках, а так все нор. Крутое
+                            оформление комнаты в стиле звездных
+                            войн, попал в атмосферу космоса.</p>
+
+                    </div>
                 </div>
 
-
-
-                <div class="review__container clearfix">
-                    <figure class="review__container__figure">
-                        <img class="review__container__img" src="./img/oksana.png" alt="Фото Оксана Григорьева">
-                    </figure>
-
-                    <p class="review__container__quote review__container__quote__text">Были в комнате Дикий Запад, пели
-                        в караоке под Шакиру,
-                        отличный
-                        получился корпоратив! У нас в
-                        городе больше нет подобных заведений.</p>
-
-                    <p class="review__container__quote review__container__name float-clear"><a
-                            class="review__container__link " href="#">Оксана
-                            Григорьева</a></p>
-                </div>
-
-                <div class="review__container">
-                    <figure class="review__container__figure">
-                        <img class="review__container__img" src="./img/nikita.png" alt="фото никита ященко">
-                    </figure>
-
-
-                    <p class="review__container__quote review__container__quote__text ">Немного подвисала игра в VR
-                        очках, а так все нор. Крутое
-                        оформление комнаты в стиле звездных
-                        войн, попал в атмосферу космоса.</p>
-
-                    <p class="review__container__quote review__container__name float-clear"><a
-                            class="review__container__link " href="#">Никита
-                            Ященко</a></p>
-                </div>
             </div>
         </section>
 
@@ -562,7 +586,7 @@
 
                 </div>
 
-                <div class="footer__location"><img src="./img/map.jpg" alt=""></div>
+                <div class="footer__location"></div>
             </div>
         </section>
     </footer>

@@ -1,0 +1,15 @@
+@import url(/css/global.css);
+
+@import url(/css/normalize.css);
+
+@import url(/css/var.css);
+
+@import"nav.css";
+
+@import"banner.css";
+
+@import"about-the-room.css";
+
+@import"another-room.css";
+
+@import url(/css/80vibes/contact.css);

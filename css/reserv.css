@@ -1,6 +1,7 @@
 .reserv__container {
+
     padding-top: 80px;
-    width: 1440px;
+    max-width: 1440px;
     height: 1114px;
     background-color: var(--color-main, #440f51);
 
@@ -8,13 +9,14 @@
 
 .reserv-entertainmen-flex {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 60px;
 }
 
 .reserv-hall {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 60px;
 }
 
@@ -48,15 +50,14 @@
 .reserv-hall__radio__button input[type=radio]:checked+label {
     border: 3px solid #cd06ff;
     border-radius: 8px;
-    width: 250px;
-    height: 55px;
+
 }
 
 
 
 .reserv-hall__radio__button label {
     cursor: pointer;
-    padding: 8px 25px;
+    padding: 8px 23px;
     line-height: 40px;
     width: 250px;
     height: 55px;
@@ -86,11 +87,13 @@
 .reserv-game {
     display: flex;
     flex-direction: column;
+
 }
 
 .reserv-additionally {
     display: flex;
     flex-direction: column;
+
 }
 
 input[type='radio'] {
@@ -138,12 +141,17 @@ input[type='checkbox'] {
 }
 
 .reserv-date__wrap {
-    width: 1010px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    flex-direction: ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
     gap: 40px 50px;
+}
+
+.reserv-date__wr {
+    display: flex;
+    justify-content: space-between;
+    grid-column: 1;
 }
 
 .reserv-date__label {
@@ -154,7 +162,7 @@ input[type='checkbox'] {
 }
 
 .reserv__form__button {
-    margin-left: auto;
+    grid-column: 3;
     border-radius: 10px;
     width: 300px;
     height: 60px;
@@ -192,12 +200,16 @@ input[type='checkbox'] {
 }
 
 .reserv-date__input_1 {
-    margin-right: 32px;
+    grid-column: 1;
+    grid-row: 1;
     width: 134px;
     height: 52px;
 }
 
 .reserv-date__input_2 {
+    grid-column: 2;
+    grid-row: 1;
+
     width: 134px;
     height: 52px;
 }
@@ -217,6 +229,7 @@ input[type='checkbox'] {
 
 .label-box-name {
     position: relative;
+    grid-column: 2;
 }
 
 .reserv-date-label-name {
@@ -287,4 +300,60 @@ input:focus {
 .reserv-date__input:focus {
     outline: 2px solid var(--color-6ff, #cd06ff);
 
+}
+
+@media (max-width: 1395px) {
+
+    .reserv__container {
+        padding-top: 80px;
+        width: 1024px;
+        height: 1114px;
+    }
+
+    .reserv-hall__radio__button label {
+        padding-top: 3px;
+        width: 180px;
+        height: 44px;
+    }
+
+    .reserv-hall__label {
+        padding-left: 22px;
+        font-size: 20px;
+    }
+
+    .reserv-date__input {
+        width: 254px;
+
+    }
+
+    .reserv-date__input_1 {
+        margin-right: 32px;
+        width: 134px;
+        height: 52px;
+    }
+
+    .reserv-date__input_2 {
+        width: 134px;
+        height: 52px;
+    }
+
+    .reserv-date__input_3 {
+        width: 300px;
+    }
+
+    .reserv-entertainmen-flex {
+
+        justify-content: space-between;
+    }
+
+    .reserv-date__wrap {
+
+
+        gap: 40px 50px;
+    }
+
+    .reserv__form__button {
+        width: 254px;
+        height: 50px;
+    }
 }

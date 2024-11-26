@@ -6,6 +6,7 @@
     display: flex;
     max-width: 1180px;
     height: 66px;
+    margin-bottom: 60px;
 }
 
 .header__logo {
@@ -56,14 +57,31 @@
 .navigation-button:focus {
     background-color: var(--color-287, #6c0287);
     border-radius: 10px;
-
+    width: 280px;
+    height: 55px;
 }
 
 .navigation-button:active {
     background-color: #640aa3;
     border: 1px solid #000;
     border-radius: 10px;
+    width: 280px;
+    height: 55px;
+}
 
+.header-back::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+    left: 0;
+    background-image: url(/img/img-nav/strekkanaz.svg);
+}
+
+.header-back {
+    position: relative;
+    padding-left: 40px;
 }
 
 @media (max-width: 1395px) {
@@ -84,7 +102,6 @@
     }
 
     .navigation-button {
-        font-size: 18px;
         max-width: 229px;
         height: 45px;
         font-size: 18px;

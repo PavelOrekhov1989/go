@@ -1,7 +1,7 @@
 .container_bgcolor {
     display: flex;
     justify-content: space-between;
-    max-width: 1440px;
+    width: 1440px;
     height: 629px;
     background: linear-gradient(180deg, #1b1a1b 0%, #370a37 100%);
 }
@@ -88,11 +88,3 @@ ul a {
 .social__link:active {
     color: var(--color-6ff, #cd06ff);
 }
-
-.footer__location {
-    background-image: url(../img/map.jpg);
-    width: 542px;
-    height: 274px;
-}
-
-@media (max-width: 1395px) {}
