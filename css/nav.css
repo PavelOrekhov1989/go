@@ -14,7 +14,7 @@
     margin-right: 96px;
 }
 
-input[type="checkbox"] {
+.input[type="checkbox"] {
     display: none;
 }
 

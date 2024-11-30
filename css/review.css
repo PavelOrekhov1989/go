@@ -90,7 +90,33 @@
     }
 
     .review__wrap {
-        gap: 40;
+        gap: 40px;
     }
+
+}
+
+@media (max-width: 900px) {
+    .review__container-padding {
+        padding: 0 50px;
+    }
+
+    .review__container__figure {
+        max-width: 153px;
+        height: 153px;
+    }
+
+    .review__container__figure::after {
+        width: 153px;
+        height: 153px;
+    }
+
+    .review__container__quote__text {
+        font-size: 16px;
+    }
+
+    .review__container__link {
+        font-size: 14px;
+    }
+
 
 }

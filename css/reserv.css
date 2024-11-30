@@ -131,18 +131,13 @@ input[type='checkbox'] {
 }
 
 .reserv-date {
-
     border: none;
 }
 
-.reserv-date-position {
-    display: flex;
-    justify-content: center;
-}
 
 .reserv-date__wrap {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 300px 280px;
     grid-template-rows: repeat(2, 1fr);
     justify-content: center;
     gap: 40px 50px;
@@ -209,7 +204,6 @@ input[type='checkbox'] {
 .reserv-date__input_2 {
     grid-column: 2;
     grid-row: 1;
-
     width: 134px;
     height: 52px;
 }
@@ -322,12 +316,11 @@ input:focus {
     }
 
     .reserv-date__input {
-        width: 254px;
+        width: 100%;
 
     }
 
     .reserv-date__input_1 {
-        margin-right: 32px;
         width: 134px;
         height: 52px;
     }
@@ -338,22 +331,77 @@ input:focus {
     }
 
     .reserv-date__input_3 {
-        width: 300px;
+        width: 100%;
     }
 
     .reserv-entertainmen-flex {
-
         justify-content: space-between;
     }
 
     .reserv-date__wrap {
-
-
         gap: 40px 50px;
     }
 
     .reserv__form__button {
-        width: 254px;
+        width: 100%;
         height: 50px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .reserv__container {
+        width: 768px;
+        height: 1307px;
+    }
+
+    .reserv-entertainmen-flex {
+        justify-content: flex-start;
+        gap: 30px 150px;
+    }
+
+    .reserv-hall__radio__button label {
+        width: 150px;
+        height: 38px;
+    }
+
+    .reserv-hall__label {
+        font-size: 16px;
+    }
+
+    .reserv-date__wrap {
+        grid-template-columns: 280px 300px;
+        grid-template-rows: repeat(4, 1fr);
+        justify-content: space-between;
+    }
+
+    .label-box-name {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .label-box-surname {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .reserv-date__label {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .label-box-tel {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .label-box-email {
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .reserv__form__button {
+        grid-column: 2;
+        grid-row: 4;
     }
 }
