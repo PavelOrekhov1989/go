@@ -25,6 +25,7 @@
     background-color: #1b1a1b;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
     width: 55px;
     height: 40px;
 
@@ -150,8 +151,21 @@
         background-image: url(/icon/img/menuactyve.svg);
 
     }
+}
 
+@media (max-width: 580px) {
+    .navigation-button {
+        display: none;
+    }
 
+    .header__logo {
+        order: 2;
+        width: 66px;
+        height: 42px;
+    }
 
-
+    .navigation__label {
+        width: 40px;
+        height: 20px;
+    }
 }

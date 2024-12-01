@@ -25,7 +25,6 @@
 
 .bg-image {
     width: 600px;
-
     background-image: url(../img/about.jpg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -43,7 +42,7 @@
 
 .about__autor {
     width: 500px;
-    height: 325px;
+
 
     grid-column: 2;
     grid-row: 2;
@@ -139,7 +138,7 @@
 @media (max-width: 900px) {
     .wrapper-about {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: 1fr 184px;
         gap: 30px 28px;
     }
 
@@ -170,6 +169,7 @@
         width: 278px;
         height: 195px;
         font-size: 18px;
+        align-self: center;
     }
 
     .author {

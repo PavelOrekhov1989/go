@@ -12,18 +12,12 @@
 }
 
 .adress {
-    display: flex;
 
     margin-bottom: 40px;
 }
 
 
-.float-img {
-    display: inline-block;
-    margin-right: 30px;
-    vertical-align: bottom;
 
-}
 
 .float-text {
     display: inline-block;
@@ -39,7 +33,24 @@
     margin-bottom: 11px;
 }
 
+.float-text::before {
+    content: "";
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    vertical-align: top;
+    padding-right: 40px;
+    background-repeat: no-repeat;
+    background-image: url(/icon/img/location.svg);
+}
 
+.float-text-tel::before {
+    background-image: url(/icon/img/telephon.svg);
+}
+
+.float-text-emal::before {
+    background-image: url(/icon/img/envelope.svg);
+}
 
 
 
@@ -91,8 +102,39 @@ ul a {
 
 .footer__location {
     background-image: url(../img/map.jpg);
+    background-size: contain;
     width: 542px;
     height: 274px;
 }
 
-@media (max-width: 1395px) {}
+@media (max-width: 900px) {
+    .container_bgcolor {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .footer__location {
+        width: 688px;
+    }
+
+    .adress__list {
+        text-align: center;
+    }
+
+    .adress__item {
+        margin: 25px auto;
+    }
+
+    .adress__item:last-child {
+        margin: 0 auto;
+    }
+
+    .social {
+        margin: 0 auto;
+    }
+
+
+
+
+}
