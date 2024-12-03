@@ -421,4 +421,13 @@
     .container__baner__content__tr {
         margin-right: 20px;
     }
+
+    .container__hall__text {
+        font-size: 26px;
+        line-height: 1.30769;
+    }
+
+    .container__hall__item {
+        height: 168px;
+    }
 }

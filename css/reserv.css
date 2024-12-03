@@ -16,6 +16,7 @@
 
 .reserv-hall {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 60px;
 }
@@ -55,25 +56,17 @@
 
 
 
-.reserv-hall__radio__button label {
-    cursor: pointer;
-    padding: 8px 23px;
-    line-height: 40px;
-    width: 250px;
-    height: 55px;
-    background-color: var(--color-text, #fff);
-    color: #000;
-    border-radius: 6px;
-    user-select: none;
-}
+
 
 .reserv-hall__label {
     padding-top: 50px;
+    padding: 8px 23px;
     font-weight: 700;
     font-size: 30px;
     line-height: 1.33333;
     text-transform: uppercase;
     color: #000;
+    background-color: var(--color-text, #fff);
 }
 
 
@@ -102,8 +95,6 @@ input[type='radio'] {
 
 input[type='checkbox'] {
     transform: scale(2);
-
-
 }
 
 .reserv-additionally__input,
@@ -351,7 +342,7 @@ input:focus {
 @media (max-width: 900px) {
 
     .reserv__container {
-        width: 768px;
+
         height: 1307px;
     }
 
@@ -403,5 +394,116 @@ input:focus {
     .reserv__form__button {
         grid-column: 2;
         grid-row: 4;
+    }
+}
+
+@media (max-width: 580px) {
+    .reserv__container {
+        padding-top: 30px;
+        height: 1519px;
+    }
+
+    .reserv-hall {
+        gap: 14px 20px;
+        margin-bottom: 30px;
+    }
+
+    .reserv__text {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .reserv-hall__radio__button {
+        width: 130px;
+        height: 30px;
+    }
+
+    .reserv-hall__label {
+        padding: 5px 17px;
+        font-size: 14px;
+        line-height: 1.28571;
+    }
+
+    .reserv__text-h4 {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+
+    .reserv-consol__label {
+        font-size: 16px;
+    }
+
+    .reserv-game__label {
+        font-size: 16px;
+    }
+
+    .reserv-additionally__label {
+        font-size: 16px;
+    }
+
+
+    .reserv-consol__input {
+        margin-right: 30px;
+    }
+
+    .reserv-game__input {
+        margin-right: 30px;
+    }
+
+    .reserv-additionally__input {
+        margin-right: 30px;
+    }
+
+    input[type='radio'] {
+        transform: scale(2.5);
+    }
+
+    input[type='checkbox'] {
+        transform: scale(2.5);
+    }
+
+    .reserv-date__wrap {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, 1fr);
+    }
+
+    .reserv-date__wr {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .reserv-date__label {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .label-box-name {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .label-box-surname {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .label-box-tel {
+        grid-column: 1;
+        grid-row: 5;
+    }
+
+    .label-box-email {
+        grid-column: 1;
+        grid-row: 6;
+    }
+
+    .reserv__form__button {
+        grid-column: 1;
+        grid-row: 7;
+    }
+
+    .reserv-entertainmen-flex {
+        margin-bottom: 5px;
     }
 }

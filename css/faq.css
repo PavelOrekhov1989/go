@@ -35,6 +35,8 @@
     background-color: var(--color-text, #fff);
     width: 46px;
     height: 46px;
+    background-size: contain;
+    background-repeat: no-repeat;
     border: none;
 }
 
@@ -43,6 +45,8 @@
     background-color: var(--color-main, #440F51);
     width: 46px;
     height: 46px;
+    background-size: contain;
+    background-repeat: no-repeat;
     border: none;
 }
 
@@ -84,5 +88,27 @@
     .faq-button-white {
         background-image: url(/icon/img/open-purple.svg);
         background-color: #fff;
+    }
+}
+
+@media (max-width: 580px) {
+
+    .fag__item {
+        font-size: 12px;
+    }
+
+    .fag__list-white {
+        height: 46px;
+        padding: 0 10px;
+    }
+
+    .faq-button {
+        width: 31px;
+        height: 31px;
+    }
+
+    .faq-button-white {
+        width: 31px;
+        height: 31px;
     }
 }

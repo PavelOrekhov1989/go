@@ -154,6 +154,10 @@
 }
 
 @media (max-width: 580px) {
+    .header {
+        padding-top: 20px;
+    }
+
     .navigation-button {
         display: none;
     }

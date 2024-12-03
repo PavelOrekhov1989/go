@@ -8,7 +8,6 @@
     flex-wrap: wrap;
     align-content: center;
     width: 100%;
-    height: 708px;
     column-gap: var(--gap);
     row-gap: 40px;
 }
@@ -100,5 +99,31 @@
     .servis__container {
         --cart-count: 2;
         --gap: 20px;
+    }
+
+}
+
+@media (max-width: 580px) {
+    .servis__wrapper {
+        align-content: flex-start;
+        row-gap: 10px;
+    }
+
+    .servis__content {
+        padding-top: 30px;
+        padding-left: 10px;
+        width: 135px;
+        height: 76px;
+
+    }
+
+    .servis__content__text {
+        font-size: 10px;
+        line-height: 1.4;
+    }
+
+    .servis__container {
+        --cart-count: 2;
+        --gap: 10px;
     }
 }

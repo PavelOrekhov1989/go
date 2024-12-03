@@ -16,9 +16,6 @@
     margin-bottom: 40px;
 }
 
-
-
-
 .float-text {
     display: inline-block;
     margin: 0;
@@ -38,7 +35,7 @@
     display: inline-block;
     width: 26px;
     height: 26px;
-    vertical-align: top;
+    vertical-align: bottom;
     padding-right: 40px;
     background-repeat: no-repeat;
     background-image: url(/icon/img/location.svg);
@@ -133,8 +130,35 @@ ul a {
     .social {
         margin: 0 auto;
     }
+}
 
+@media (max-width: 580px) {
+    .adress__list {
+        font-size: 14px;
+        vertical-align: bottom;
+    }
 
+    .adress__item {
+        margin: 10px auto;
+    }
 
+    a>svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .social__list {
+        padding-left: 60px;
+    }
+
+    .footer__location {
+        width: 280px;
+        height: 194px;
+        background-size: cover;
+    }
+
+    .container_bgcolor {
+        justify-content: flex-start;
+    }
 
 }
