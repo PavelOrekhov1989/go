@@ -1,0 +1,79 @@
+.about-the-room-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-the-room-wrap-content-img {
+    width: 600px;
+    height: 424px;
+    background-image: url(/img/80vibes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-the-room-wrap-content-neon {
+    background-image: url(/img/neon\ style.jpg);
+}
+
+.about-the-room-wrap-content-star {
+    background-image: url(/img/star\ wars.jpg);
+}
+
+.about-the-room-wrap-content-wild {
+    background-image: url(/img/wild\ west.jpg);
+}
+
+
+
+.about-the-room-wrap-text {
+    width: 500px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #fff;
+    align-self: center;
+}
+
+@media (max-width: 1395px) {
+
+    .about-the-room-wrap-content-img {
+        width: 461px;
+        height: 326px;
+    }
+
+    .about-the-room-wrap-text {
+        width: 416px;
+
+        font-size: 18px;
+
+    }
+}
+
+@media (max-width: 900px) {
+    .about-the-room-wrap-content-img {
+        width: 329px;
+        height: 326px;
+    }
+
+    .about-the-room-wrap-text {
+        width: 313px;
+
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 580px) {
+    .about-the-room-wrap-content-img {
+        width: 280px;
+        height: 180px;
+        margin-bottom: 15px;
+    }
+
+    .about-the-room-wrap-text {
+        width: 280px;
+        min-height: 95px;
+        font-size: 12px;
+    }
+}

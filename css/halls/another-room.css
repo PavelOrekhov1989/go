@@ -1,5 +1,6 @@
 .wrap-content {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -16,6 +17,8 @@
     color: #fff;
 }
 
+
+
 .wrap-content-bgc-wild {
     background-image: url(/img/wild\ west.jpg);
 }
@@ -31,4 +34,33 @@
 
 .wrap-content-bgc-80 {
     background-image: url(/img/80vibes.jpg);
+}
+
+@media (max-width: 1395px) {
+    .wrap-content-bgc-img {
+        width: 288px;
+        height: 178px;
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 900px) {
+    .wrap-content {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .wrap-content-bgc-img {
+        width: 224px;
+        height: 134px;
+        padding-top: 50px;
+        font-size: 20px;
+    }
+
+    @media (max-width: 580px) {
+        .wrap-content-bgc-img {
+            width: 280px;
+        }
+    }
+
 }
