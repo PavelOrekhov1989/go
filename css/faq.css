@@ -13,6 +13,10 @@
     list-style: none
 }
 
+.fag__list-white:last-child {
+    margin-bottom: 0;
+}
+
 
 
 .fag__item {
@@ -89,6 +93,16 @@
         background-image: url(/icon/img/open-purple.svg);
         background-color: #fff;
     }
+
+    .faq-button-white:hover {
+        background-image: url(../icon/img/openbutonpurpul.svg);
+
+    }
+
+    .faq-button-white:active {
+        background-image: url(../icon/img/activepurp.svg);
+
+    }
 }
 
 @media (max-width: 580px) {
@@ -107,7 +121,27 @@
         height: 31px;
     }
 
+    .faq-button:hover {
+        width: 31px;
+        height: 31px;
+    }
+
+    .faq-button:active {
+        width: 31px;
+        height: 31px;
+    }
+
     .faq-button-white {
+        width: 31px;
+        height: 31px;
+    }
+
+    .faq-button-white:hover {
+        width: 31px;
+        height: 31px;
+    }
+
+    .faq-button-white:active {
         width: 31px;
         height: 31px;
     }

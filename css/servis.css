@@ -1,6 +1,7 @@
 .servis__container {
     --cart-count: 3;
     --gap: 20px;
+    height: 708px;
 }
 
 .servis__wrapper {
@@ -36,32 +37,32 @@
 
 .servis__content_vr {
 
-    background-image: url(../img/vr.jpg);
+    background-image: url(../img/vr.png);
 }
 
 .servis__content_audio {
     transform: translateY(70px);
-    background-image: url(../img/audio.jpg);
+    background-image: url(../img/audio.png);
 }
 
 .servis__content_karaoke {
-    background-image: url(../img/micro.jpg);
+    background-image: url(../img/micro.png);
 }
 
 .servis__content_game {
 
     align-self: flex-start;
-    background-image: url(../img/game.jpg);
+    background-image: url(../img/game.png);
 }
 
 .servis__content_cinema {
     transform: translateY(70px);
-    background-image: url(../img/netflix.jpg);
+    background-image: url(../img/netflix.png);
 }
 
 .servis__content_playstation {
 
-    background-image: url(../img/sony.jpg);
+    background-image: url(../img/sony.png);
 }
 
 .servis__content__text {
@@ -74,6 +75,11 @@
 
 
 @media (max-width: 1395px) {
+    .servis__container {
+        height: 580px;
+    }
+
+
     .servis__content {
         width: 287px;
         height: 172px;
@@ -90,15 +96,25 @@
 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 911px) {
     .servis__content {
         width: 334px;
         transform: none;
     }
 
+    .servis__wrapper {
+        row-gap: 20px;
+    }
+
     .servis__container {
+        height: 100%;
         --cart-count: 2;
         --gap: 20px;
+
+    }
+
+    .servis__content:hover:nth-child(3n+2) {
+        transform: translateY(0) scale(1.1);
     }
 
 }

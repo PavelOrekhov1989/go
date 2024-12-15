@@ -12,6 +12,8 @@
 
 @import "reserv.css";
 
+@import url(/css/banner.css);
+
 @import url(faq.css);
 
 @import url(hall.css);

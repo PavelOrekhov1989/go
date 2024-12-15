@@ -1,0 +1,278 @@
+.container__baner {
+    position: relative;
+    height: 823px;
+}
+
+.container__baner::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 675px;
+    height: 762px;
+    background-image: url(../img/banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.container__baner__paragraph {
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 1;
+    letter-spacing: -0.1em;
+
+    color: #fff;
+}
+
+.container__baner__text {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.78571;
+    color: #fff;
+    padding-left: 100px;
+    margin-bottom: 56px;
+}
+
+.container__baner__wrapper {
+    display: flex;
+    gap: 28px;
+    align-items: flex-end;
+    margin-bottom: 149px;
+}
+
+.container__baner__content__tr {
+    width: 193px;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.container__baner__content__text-color {
+    font-weight: 900;
+    font-size: 100px;
+    color: #cd06ff;
+}
+
+.container__baner__content__text-color2 {
+    font-weight: 900;
+    font-size: 75px;
+    font-variant: all-small-caps;
+    color: #cd06ff;
+}
+
+.container__baner__button {
+    border-radius: 10px;
+    border: 0;
+    width: 374px;
+    height: 80px;
+    background: #6c0287;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.15385;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.container__baner__button:hover {
+    background-color: #840aa3;
+
+}
+
+.container__baner__button:focus {
+    background-color: #840aa3;
+}
+
+.container__baner__button:active {
+    background-color: #640aa3;
+}
+
+.container__button__moving {
+    position: absolute;
+    width: 97px;
+    height: 97px;
+    left: 540px;
+    top: 635px;
+    z-index: 3;
+}
+
+.container__button__moving:hover {
+    border-radius: 100%;
+
+    fill: var(--color-text, #fff);
+    stroke: var(--color-287, #6c0287);
+    background-color: #fff;
+    color: #6c0287;
+}
+
+
+
+.container__button__moving:active {
+    border-radius: 100%;
+
+    fill: #cd06ff;
+    stroke: var(--color-text, #fff);
+    background-color: var(--color-6ff, #cd06ff);
+    color: #fff;
+}
+
+.navigation__link:hover {
+    color: #840aa3;
+}
+
+@media (max-width: 1395px) {
+    .container__baner::before {
+        width: 453px;
+        height: 520px;
+    }
+
+    .container__baner__paragraph {
+        font-size: 120px;
+    }
+
+    .container__baner__text {
+        font-size: 22px;
+    }
+
+    .container__baner {
+        height: 583px;
+    }
+
+    .container__baner__content__tr {
+        font-size: 26px;
+    }
+
+    .container__baner__content__text-color {
+        font-size: 80px;
+    }
+
+    .container__baner__content__text-color2 {
+        font-size: 60px;
+    }
+
+    .container__baner__button {
+        width: 296px;
+        height: 64px;
+        font-size: 22px;
+    }
+
+
+
+    .container__button__moving {
+        width: 68px;
+        height: 68px;
+        top: 460px;
+        left: 420px;
+    }
+
+    .container__baner__wrapper {
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 911px) {
+    .container__baner__paragraph {
+        font-size: 86px;
+        line-height: 1;
+        letter-spacing: -0.1em;
+    }
+
+    .container__baner::before {
+        width: 409px;
+        height: 479px;
+    }
+
+    .container__baner {
+        height: 537px;
+    }
+
+    .container__baner__content__tr {
+        width: 95px;
+    }
+
+    .container__baner__text {
+        font-size: 18px;
+    }
+
+    .container__baner__content__tr {
+        font-size: 16px;
+    }
+
+    .container__baner__content__text-color {
+        font-size: 50px;
+    }
+
+    .container__baner__content__text-color2 {
+        font-size: 40px;
+    }
+
+    .container__baner__button {
+        width: 214px;
+        height: 46px;
+        font-size: 16px;
+    }
+
+    .container__baner__wrapper {
+        margin-bottom: 100px;
+    }
+
+    .container__button__moving {
+        display: none;
+    }
+}
+
+@media (max-width: 580px) {
+    .container__baner {
+        height: 204px;
+    }
+
+    .container__baner__paragraph {
+        font-size: 35px;
+        letter-spacing: -0.08em;
+    }
+
+    .container__baner::before {
+        width: 161px;
+        height: 179px;
+    }
+
+
+    .container__baner__content__tr {
+        width: 95px;
+    }
+
+    .container__baner__text {
+        padding-left: 20px;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .container__baner__content__tr {
+        width: 65px;
+        font-size: 10px;
+    }
+
+    .container__baner__content__text-color {
+        font-size: 26px;
+    }
+
+    .container__baner__content__text-color2 {
+        font-size: 22px;
+    }
+
+    .container__baner__button {
+        width: 117px;
+        height: 27px;
+        font-size: 10px;
+    }
+
+    .container__baner__wrapper {
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+
+
+}
