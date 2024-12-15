@@ -72,9 +72,7 @@
 }
 
 @media (max-width: 900px) {
-    .header__halls {
-        margin-bottom: 40px;
-    }
+
 
     .position-banner {
         padding-top: 130px;
@@ -98,9 +96,6 @@
 }
 
 @media (max-width: 580px) {
-    .header__halls {
-        margin-bottom: 20px;
-    }
 
     .header-back {
         font-size: 12px;
